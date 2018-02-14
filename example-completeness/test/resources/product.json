@@ -1,0 +1,77 @@
+{
+  "id": "eaee0d92-5fc8-46b7-866a-a54421ddd4b2",
+  "version": 53,
+  "productType": {
+    "typeId": "product-type",
+    "id": "c8099747-1323-4134-9948-034a4bd52382"
+  },
+  "catalogs": [],
+  "masterData": {
+    "current": {
+      "name": {
+        "en": "product EN"
+      },
+      "categories": [],
+      "categoryOrderHints": {},
+      "slug": {
+        "en": "incomplete-1518085934857",
+        "de": "incomplete-1518085934857"
+      },
+      "masterVariant": {
+        "id": 1,
+        "prices": [],
+        "images": [],
+        "attributes": [],
+        "assets": []
+      },
+      "variants": [],
+      "searchKeywords": {}
+    },
+    "staged": {
+      "name": {
+        "en": "1231231223123"
+      },
+      "description": {
+        "en": "product description"
+      },
+      "categories": [],
+      "categoryOrderHints": {},
+      "slug": {
+        "en": "incomplete-1518085934857",
+        "de": "incomplete-1518085934857"
+      },
+      "metaDescription": {
+        "de": "123123123"
+      },
+      "masterVariant": {
+        "id": 1,
+        "prices": [],
+        "images": [],
+        "attributes": [
+          {
+            "name": "completeness",
+            "value": 75
+          },
+          {
+            "name": "missingvalues",
+            "value": "[{\"kind\":\"D\",\"path\":[\"description\",\"en\"],\"lhs\":\"<p>Test</p>\"}]"
+          },
+          {
+            "name": "test2",
+            "value": "2"
+          }
+        ],
+        "assets": []
+      },
+      "variants": [],
+      "searchKeywords": {}
+    },
+    "published": false,
+    "hasStagedChanges": true
+  },
+  "catalogData": {},
+  "lastVariantId": 1,
+  "createdAt": "2018-02-08T10:32:18.097Z",
+  "lastModifiedAt": "2018-02-08T17:38:27.339Z",
+  "lastMessageSequenceNumber": 1
+}
