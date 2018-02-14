@@ -1,0 +1,118 @@
+{
+  "id": "de642648-8a9e-4d84-a79e-ebe190e1c2bc",
+  "version": 71,
+  "productType": {
+    "typeId": "product-type",
+    "id": "c8099747-1323-4134-9948-034a4bd52382"
+  },
+  "catalogs": [],
+  "masterData": {
+    "staged": {
+      "name": {
+        "de": true
+      },
+      "description": {
+        "de": true
+      },
+      "categories": [{
+        "typeId": "category",
+        "id": "f028e434-a1a8-46ca-be0e-13b96a891062"
+      }, {
+        "typeId": "category",
+        "id": "f02bec66-28fd-421c-a902-c0d7fcb7e5db"
+      }],
+      "categoryOrderHints": {},
+      "slug": {
+        "de": true
+      },
+      "masterVariant": {
+        "id": 1,
+        "prices": ["@.country==\"\" && @.channel.id==\"\" && @.value.currencyCode==\"EUR\"", "@.country==\"DE\" && @.channel.id==\"\" && @.value.currencyCode==\"EUR\"", "@.country==\"DE\" && @.channel.id==\"6e55c807-aeae-492c-97a1-b8724f013e20\" && @.value.currencyCode==\"EUR\""],
+        "images": [{
+          "url": "https://ebc24f8525db88613638-1dd07b8effb00cfbf3b4b38462413dc9.ssl.cf3.rackcdn.com/27479524_10215398757-TLTwKvjv.jpg",
+          "dimensions": {
+            "w": 4096,
+            "h": 3072
+          }
+        }],
+        "attributes": ["?(@.name==\"test1\")", "?(@.name==\"test2\")", "?(@.name==\"test3\")", "?(@.name==\"varianttest\")", "?(@.name==\"ltext\")", "?(@.name==\"setoftext\")", "?(@.name==\"enum\")", "?(@.name==\"lenum\")", "?(@.name==\"completeness\")", "?(@.name==\"missingvalues\")", "?(@.name==\"referenceproduct\")"],
+        "assets": []
+      },
+      "variants": [{
+        "id": 2,
+        "sku": "cvbcvbcvb",
+        "prices": [],
+        "images": [],
+        "attributes": [{
+          "name": "test1",
+          "value": "1"
+        }, {
+          "name": "test2",
+          "value": "1"
+        }, {
+          "name": "test3",
+          "value": "1"
+        }, {
+          "name": "varianttest",
+          "value": "1"
+        }, {
+          "name": "ltext",
+          "value": {
+            "de": "2",
+            "en": "1"
+          }
+        }, {
+          "name": "setoftext",
+          "value": ["2", "1"]
+        }, {
+          "name": "enum",
+          "value": {
+            "label": "a",
+            "key": "a"
+          }
+        }, {
+          "name": "lenum",
+          "value": {
+            "label": {
+              "de": "a",
+              "en": "a"
+            },
+            "key": "a"
+          }
+        }, {
+          "name": "completeness",
+          "value": {
+            "de": "67",
+            "en": "65"
+          }
+        }, {
+          "name": "missingvalues",
+          "value": {
+            "en": "masterData.staged.variants.0.attributes.6.value.de\nmasterData.staged.variants.0.attributes.6.value.en\nmasterData.staged.variants.0.attributes.9.value.typeId\nmasterData.staged.variants.0.attributes.9.value.id\nmasterData.staged.variants.0.attributes.10.value.label\nmasterData.staged.variants.0.attributes.10.value.key\nmasterData.staged.masterVariant.attributes[$.name=lenum]\nmasterData.staged.variants.0.attributes",
+            "de": "masterData.staged.variants.0.attributes.6.value.de\nmasterData.staged.variants.0.attributes.6.value.en\nmasterData.staged.variants.0.attributes.9.value.typeId\nmasterData.staged.variants.0.attributes.9.value.id\nmasterData.staged.variants.0.attributes.10.value.label\nmasterData.staged.variants.0.attributes.10.value.key\nmasterData.staged.masterVariant.attributes[$.name=lenum]\nmasterData.staged.variants.0.attributes"
+          }
+        }, {
+          "name": "referenceproduct",
+          "value": {
+            "id": "de642648-8a9e-4d84-a79e-ebe190e1c2bc",
+            "typeId": "product"
+          }
+        }],
+        "assets": []
+      }],
+      "searchKeywords": {}
+    },
+    "published": true,
+    "hasStagedChanges": true
+  },
+  "key": "complete",
+  "catalogData": {},
+  "taxCategory": {
+    "typeId": "tax-category",
+    "id": "3aba2226-0693-43b5-bc64-7a6abeb30e6e"
+  },
+  "lastVariantId": 2,
+  "createdAt": "2018-02-08T10:31:44.563Z",
+  "lastModifiedAt": "2018-02-13T10:39:33.276Z",
+  "lastMessageSequenceNumber": 6
+}

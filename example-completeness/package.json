@@ -1,0 +1,21 @@
+{
+  "name": "commercetools-product-completeness-example",
+  "version": "0.0.1",
+  "scripts": {
+    "prestart": "npm run build",
+    "test": "npm run build && babel test/src --presets babel-preset-es2015 --out-dir ./test/out && mocha --full-trace --recursive \"./test/out/*.spec.js\"",
+    "start": "node index.js",
+    "build": "babel src --presets babel-preset-es2015 --out-dir ./"
+  },
+  "dependencies": {
+    "deep-diff": "0.3.8",
+    "lodash": "4.17.5",
+    "jsonpath": "1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-preset-es2015": "6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
