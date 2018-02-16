@@ -51,7 +51,7 @@ const attributeTypes = [
 
 exports.getAttributeType = function (attribute) {
     if (typeof attribute === 'object') {
-        for (var i = 0; i < attributeTypes.length; i++) {
+        for (let i = 0; i < attributeTypes.length; i++) {
             if (attributeTypes[i].identify(attribute)) {
                 return attributeTypes[i];
             }
@@ -61,12 +61,11 @@ exports.getAttributeType = function (attribute) {
 }
 
 exports.getLocalizations = function (product, path) {
-    var localizations = [];
+    let localizations = [];
     jp.query(product, path).forEach(attribute => {
-        if (exports.getAttributeType(attribute).localizablePath && jp.query(attribute, exports.getAttributeType(attribute).localizablePath)[0]) {
-            Object.keys(jp.query(attribute, exports.getAttributeType(attribute).localizablePath)[0]).forEach(key => {
-                localizations.push(key);
-            });
+        const attributeType = exports.getAttributeType(attribute);
+        if (attributeType.localizablePath && jp.query(attribute, attributeType.localizablePath)[0]) {
+            localizations.push(..._.keys(jp.query(attribute, attributeType.localizablePath)[0]));
         }
     });
     return _.uniq(localizations)
@@ -76,9 +75,9 @@ exports.normalize = function (attribute) {
     const self = this;
     const attributeType = exports.getAttributeType(attribute);
     if (attributeType) {
-        var normalizedArray = _.map(this.identifiers, identifier => {
+        let normalizedArray = _.map(this.identifiers, identifier => {
             if (attributeType.localizablePath) {
-                var objectValues = jp.query(attribute, exports.getAttributeType(attribute).localizablePath);
+                let objectValues = jp.query(attribute, exports.getAttributeType(attribute).localizablePath);
                 objectValues = objectValues[0];
                 if (objectValues[self.localization]) {
                     return `@.${identifier}=="${jp.query(attribute, `$.${identifier}`)}"`
@@ -87,7 +86,7 @@ exports.normalize = function (attribute) {
                 return `@.${identifier}=="${jp.query(attribute, `$.${identifier}`)}"`
             }
         })
-        var key = `?(${normalizedArray.join(" && ")})`;
+        let key = `?(${normalizedArray.join(" && ")})`;
         return key;
     }
 }

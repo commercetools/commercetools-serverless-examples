@@ -1,10 +1,10 @@
 # Completeness example
-[API-Extension](https://docs.commercetools.com/http-api-projects-api-extensions.html) for the commercetools platform to synchronously identify missing values and calculate language specific completeness of a product whenever the product is created or updated.
+[API Extension](https://docs.commercetools.com/http-api-projects-api-extensions.html) for the commercetools platform to synchronously identify missing values and calculate language specific completeness of a product whenever the product is created or updated.
 
 ### Use case
 A common requirement in PIM (product information management) projects is to manage product states based on specific properties of a product. For example you might want to automatically set a product's state to "Ready for approval" as soon as all required datafields (e.g. name, description, slug, ...) and properties (e.g. images, category-assignments, references, ...) are set and the product is *complete*.
 
-A good approach to achieve this behaviour is to identify missing values of a product whenever it is created or updated by comparing it with a template of a product that is concidered to be complete. Based on the number of missing values you can then calculate a numeric value *completeness* that indicates which percentage of required values is already set.
+A good approach to achieve this behavior is to identify missing values of a product whenever it is created or updated by comparing it with a template of a product that is considered to be complete. Based on the number of missing values you can then calculate a numeric value *completeness* that indicates which percentage of required values is already set.
 - completeness[de-DE]: 0% -> No required value for the locale de-DE is set.
 - completeness[de-DE]: 100% -> All required values for the locale de-DE are set, the product is complete for this locale.
 
@@ -12,7 +12,7 @@ The completeness value can then be used to trigger state changes or other update
 
 ## Preconditions
 To store completeness information and missing values, the API-Extension requires your productType to have the following two attributes:
-```
+```json
     {
       "name": "completeness",
       "label": {
@@ -42,11 +42,11 @@ To store completeness information and missing values, the API-Extension requires
 ```
 
 ## Usage
-1. Define a incomplete product (completeness = 0%) by pasting the JSON of a commercetools product into `./config/incompleteProduct.json`
+1. Define an incomplete product (completeness = 0%) by pasting the JSON of a commercetools product into `./config/incompleteProduct.json`
 2. Define a complete product (completeness = 100%) by pasting the JSON of a commercetools product into `./config/completeProduct.json`
-3. If necessary, define the the level of detail that your product requires and the algorithms that are used to compare products properties by adding schemas to `./src/schemas.js` and write your custom normalizers. More details can be found in the *schemas-section*.
+3. If necessary, define the level of detail that your product requires and the algorithms that are used to compare products properties by adding schemas to `./src/schemas.js` and write your custom normalizers. More details can be found in the *schemas-section*.
 4. Build your code and deploy it as a Google Cloud Function to Google Cloud.
-5. Create the [API-Extension](https://docs.commercetools.com/http-api-projects-api-extensions.html) in your commercetools project.
+5. Create the [API Extension](https://docs.commercetools.com/http-api-projects-api-extensions.html) in your commercetools project.
 
 ### Schemas
 Commercetools products contain many different complex sub-objects such as attributes, images, assets, category-maps, variants, prices and so on. By default `deepdiff` does return all deleted properties and array elements of the given product. While this works fine for simple properties such as `key` or `taxCategory`, more complex properties such as localizable datafields, attributes or prices need to be normalized with *Normalizers* in order to make `deepdiff` return proper values. Schemas and Normalizers help you to define required sub-objects and required properties using JSONpaths. Some examples:
@@ -54,7 +54,7 @@ Commercetools products contain many different complex sub-objects such as attrib
 1. Identify a missing product description for a locale using the LocalizationNormalizer:
 
     **Structure in the product:**
-    ```
+    ```json
       "description": {
         "en": "Complete EN",
         "de": "Complete DE"
@@ -62,7 +62,7 @@ Commercetools products contain many different complex sub-objects such as attrib
     ```
 
     **Corresponding schema:**
-    ```
+    ```json
     description: {
         path: '$.masterData.staged.description',
         normalizer: LocalizableNormalizer
@@ -71,7 +71,7 @@ Commercetools products contain many different complex sub-objects such as attrib
 2. Identify a missing localization of an attribute by its name using the AttributeNormalizer:
 
     **Structure in the product:**
-    ```
+    ```json
       {
         "name": "test3",
         "value": "1"
@@ -79,7 +79,7 @@ Commercetools products contain many different complex sub-objects such as attrib
     ```
 
     **Corresponding schema:**
-    ```
+    ```json
     attributes: {
         path: '$.masterData.staged.masterVariant.attributes.*',
         identifiers: ['name'],
@@ -91,7 +91,7 @@ Commercetools products contain many different complex sub-objects such as attrib
 3. Identify a missing price without caring about currency, country or channel using the AttributeNormalizer:
 
     **Structure in the product:**
-    ```
+    ```json
       {
         "value": {
           "currencyCode": "EUR",
@@ -107,7 +107,7 @@ Commercetools products contain many different complex sub-objects such as attrib
     ```
 
     **Corresponding schema:**
-    ```
+    ```json
     prices: {
         path: '$.masterData.staged.masterVariant.prices.*',
         identifiers: [],
@@ -118,7 +118,7 @@ Commercetools products contain many different complex sub-objects such as attrib
 4. Identify a missing price by taking into account currency, country or channel using the AttributeNormalizer:
 
     **Structure in the product:**
-    ```
+    ```json
       {
         "value": {
           "currencyCode": "EUR",
@@ -134,7 +134,7 @@ Commercetools products contain many different complex sub-objects such as attrib
     ```
 
     **Corresponding schema:**
-    ```
+    ```json
     prices: {
         path: '$.masterData.staged.masterVariant.prices.*',
         identifiers: ['country', 'channel.id', 'value.currencyCode'],

@@ -7,13 +7,13 @@ const normalizedCompleteProduct = require('../resources/normalizedCompleteProduc
 
 describe('Utils', () => {
 
-    it('it should return the required localizations', () => {
+    it('should return the required localizations', () => {
 
         const localizations = utils.getRequiredLocalizations(completeProduct);
         expect(localizations).to.have.lengthOf(2);
     })
 
-    it('it should normalize a product as required', () => {
+    it('should normalize a product as required', () => {
 
         const normalizedProduct = utils.normalize(completeProduct, 'de');
         expect(normalizedProduct).to.deep.equal(normalizedCompleteProduct);

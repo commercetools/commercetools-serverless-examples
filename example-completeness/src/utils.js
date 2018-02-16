@@ -5,7 +5,7 @@ import jp from 'jsonpath';
 const schemas = require('./schemas.js').schemas;
 
 exports.getRequiredLocalizations = function (product) {
-    var localizations = [];
+    let localizations = [];
     _.forOwn(schemas, function(schema){
         schema.normalizer.getLocalizations(product, schema.path).forEach(function(localization){
             localizations.push(localization);
@@ -34,18 +34,18 @@ exports.productDiff = function (completeProduct, product) {
     const differences = diff(completeProduct, product);
     // Find missing object properties
     const missingValues = _.filter(differences, {kind: 'D'});
-    var missingValuePaths = _.map(missingValues, function (missingValue) {
+    let missingValuePaths = _.map(missingValues, function (missingValue) {
         return missingValue.path.join(".");
     });
     // Find missing array elements
     const missingArrayElements = _.filter(differences, {kind: 'A', item: {kind: 'D'}});
     const missingArrayPaths = _.map(missingArrayElements, function (missingArrayElement) {
-        var path = missingArrayElement.path.join(".");
+        let path = missingArrayElement.path.join(".");
         if (typeof missingArrayElement.item.lhs === "string") {
             path += "[" + missingArrayElement.item.lhs + "]";
         }
         return path;
     });
-    var missingPaths = missingValuePaths.concat(missingArrayPaths);
+    let missingPaths = missingValuePaths.concat(missingArrayPaths);
     return missingPaths;
 }
