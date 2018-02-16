@@ -5,9 +5,9 @@ Solution: Put a small wrapper between the specific APIs offered by the FaaS prov
 
 To implement an extension, you create a function that takes three parameters:
 
-* input - This JSON: https://docs.commercetools.com/http-api-projects-api-extensions.html#input
-* ctpResponse - An object that defines helpers for all possible responses defined here: https://docs.commercetools.com/http-api-projects-api-extensions.html#response It contains the helper functions `pass`, `update`, `updates`, `error`, `errors` that you need to use to make your Extension respond back to ctp.
-* log - Because it would have been too easy if all FaaS would just use `console.log` ;)
+* `input` - This JSON: https://docs.commercetools.com/http-api-projects-api-extensions.html#input
+* `ctpResponse` - An object that defines helpers for all possible responses defined here: https://docs.commercetools.com/http-api-projects-api-extensions.html#response It contains the helper functions `pass`, `update`, `updates`, `error`, `errors` that you need to use to make your Extension respond back to ctp.
+* `log` - Because it would have been too easy if all FaaS would just use `console.log` ;)
 
 ## State
 
