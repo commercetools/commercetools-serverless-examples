@@ -23,7 +23,7 @@ describe('AttributeNormalizer', () => {
         expect(attributeType.name).to.equal('set');
     })
 
-    it('it should identify attribute type Reference', () => {
+    it('should identify attribute type Reference', () => {
         const attribute = {
             "name": "referenceproduct",
             "value": {
@@ -35,7 +35,7 @@ describe('AttributeNormalizer', () => {
         expect(attributeType.name).to.equal('reference');
     })
 
-    it('it should identify attribute type localizableEnum', () => {
+    it('should identify attribute type localizableEnum', () => {
         const attribute = {
             "name": "lenum",
             "value": {
@@ -50,7 +50,7 @@ describe('AttributeNormalizer', () => {
         expect(attributeType.name).to.equal('localizableEnum');
     })
 
-    it('it should identify attribute type Enum', () => {
+    it('should identify attribute type Enum', () => {
         const attribute = {
             "name": "enum",
             "value": {
@@ -62,7 +62,7 @@ describe('AttributeNormalizer', () => {
         expect(attributeType.name).to.equal('enum');
     })
 
-    it('it should identify attribute type localizableText', () => {
+    it('should identify attribute type localizableText', () => {
         const attribute = {
             "name": "ltext",
             "value": {
@@ -74,7 +74,7 @@ describe('AttributeNormalizer', () => {
         expect(attributeType.name).to.equal('localizableText');
     })
 
-    it('it should identify attribute type Simple', () => {
+    it('should identify attribute type Simple', () => {
         const attribute = {
             "name": "test3",
             "value": "1"
@@ -83,7 +83,7 @@ describe('AttributeNormalizer', () => {
         expect(attributeType.name).to.equal('simple');
     })
 
-    it('it should return the correct JSONpath for an attribute', () => {
+    it('should return the correct JSONpath for an attribute', () => {
         const attribute = {
             "name": "test3",
             "value": "1"

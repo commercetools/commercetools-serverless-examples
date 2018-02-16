@@ -4,7 +4,7 @@ import {expect} from 'chai';
 
 describe('LocalizableNormalizer', () => {
 
-    it('it should return the correct JSONpath for a description', () => {
+    it('should return the correct JSONpath for a description', () => {
         const description = {
                 "en": "Complete EN",
                 "de": "Complete DE"

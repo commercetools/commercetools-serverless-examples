@@ -4,7 +4,7 @@ import {expect} from 'chai';
 
 describe('PriceNormalizer', () => {
 
-    it('it should return the correct JSONpath for a price', () => {
+    it('should return the correct JSONpath for a price', () => {
         const price = {
             "value": {
                 "currencyCode": "EUR",
