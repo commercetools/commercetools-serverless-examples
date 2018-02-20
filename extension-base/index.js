@@ -1,8 +1,8 @@
 var adapter = require('./ctp-extension-azure-adapter.js');
 module.exports = adapter.ctpExtensionAdapter(addInsurance);
 
-// var wrapper = require('./ctpGcfWrapper.js');
-// exports.handler = wrapper.ctpGcfWrapper(addInsurance);
+// var adapter = require('./ctp-extension-gcf-adapter.js');
+// exports.handler = adapter.ctpExtensionAdapter(addInsurance);
 
 function addInsurance(input, ctpResponse, log) {
   // Use an ID from your project!
