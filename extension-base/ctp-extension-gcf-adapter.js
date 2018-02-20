@@ -1,7 +1,7 @@
 // Google Cloud Functions
 
 module.exports = {
-  ctp-extension-wrapper: function(fn) {
+  ctpExtensionAdapter: function(fn) {
     return function(req, res) {
       fn(req.body, ctpGcfResponse(res), console.log);
     }
