@@ -1,8 +1,8 @@
-// var wrapper = require('./ctpAzureWrapper.js');
-// module.exports = wrapper.ctpAzureWrapper(addInsurance);
+var adapter = require('./ctp-extension-azure-adapter.js');
+module.exports = adapter.ctpExtensionAdapter(addInsurance);
 
-var wrapper = require('./ctpGcfWrapper.js');
-exports.handler = wrapper.ctpGcfWrapper(addInsurance);
+// var wrapper = require('./ctpGcfWrapper.js');
+// exports.handler = wrapper.ctpGcfWrapper(addInsurance);
 
 function addInsurance(input, ctpResponse, log) {
   // Use an ID from your project!
@@ -11,20 +11,17 @@ function addInsurance(input, ctpResponse, log) {
   var cart = input.resource.obj;
   // If the cart contains any line item that is worth more than $500,
   // mandatory insurance needs to be added.
-  var itemRequiresInsurance = cart.lineItems.find( (lineItem) => {
-      return lineItem.totalPrice.centAmount > 50000;
-  });
+  var cartRequiresInsurance = cart.lineItems.some(lineItem =>
+    lineItem.totalPrice.centAmount > 50000
+  );
   var insuranceItem = cart.customLineItems.find( (customLineItem) => {
-      return customLineItem.slug == "mandatory-insurance";
+    return customLineItem.slug == "mandatory-insurance";
   });
-
-  var cartRequiresInsurance = itemRequiresInsurance != undefined;
   var cartHasInsurance = insuranceItem != undefined
-
   
   if (cartRequiresInsurance && !cartHasInsurance) {
     log("adding insurance");
-    ctpResponse.updates([{
+    ctpResponse.resolve([{
       action: "addCustomLineItem",
       name: { en: "Mandatory Insurance for Items above $500" },
       money: {
@@ -40,14 +37,14 @@ function addInsurance(input, ctpResponse, log) {
   }
   else if (!cartRequiresInsurance && cartHasInsurance) {
     log("removing insurance");
-    ctpResponse.update({
+    ctpResponse.resolve({
       action: "removeCustomLineItem",
       customLineItemId: insuranceItem.id
     });
   }
   else {
     log("nothing to do");
-    ctpResponse.pass();
+    ctpResponse.resolve();
   }
 };
 
