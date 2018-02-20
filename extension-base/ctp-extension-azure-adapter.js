@@ -10,7 +10,7 @@ module.exports = {
 
 function ctpResponse(context) {
   return {
-    reject: createErrors(context),
+    reject: createReject(context),
     resolve: createResolve(context),
   }
 }
