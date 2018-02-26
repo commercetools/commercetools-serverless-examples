@@ -63,7 +63,18 @@
         ],
         "assets": []
       },
-      "variants": [],
+      "variants": [{
+        "id": 2,
+        "prices": [],
+        "images": [],
+        "attributes": [
+          {
+            "name": "test2",
+            "value": "sdfsdfsdfsdfsdfsdfsfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsfs"
+          }
+        ],
+        "assets": []
+      }],
       "searchKeywords": {}
     },
     "published": false,

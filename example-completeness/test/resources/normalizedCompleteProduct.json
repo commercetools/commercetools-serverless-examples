@@ -35,7 +35,7 @@
             "h": 3072
           }
         }],
-        "attributes": ["?(@.name==\"test1\")", "?(@.name==\"test2\")", "?(@.name==\"test3\")", "?(@.name==\"varianttest\")", "?(@.name==\"ltext\")", "?(@.name==\"setoftext\")", "?(@.name==\"enum\")", "?(@.name==\"lenum\")", "?(@.name==\"completeness\")", "?(@.name==\"missingvalues\")", "?(@.name==\"referenceproduct\")"],
+        "attributes": ["?(@.name==\"test1\")", "?(@.name==\"test2\")", "?(@.name==\"test3\")", "?(@.name==\"varianttest\")", "?(@.name==\"ltext\")", "?(@.name==\"setoftext\")", "?(@.name==\"enum\")", "?(@.name==\"lenum\")", "?(@.name==\"referenceproduct\")"],
         "assets": []
       },
       "variants": [{
@@ -43,61 +43,7 @@
         "sku": "cvbcvbcvb",
         "prices": [],
         "images": [],
-        "attributes": [{
-          "name": "test1",
-          "value": "1"
-        }, {
-          "name": "test2",
-          "value": "1"
-        }, {
-          "name": "test3",
-          "value": "1"
-        }, {
-          "name": "varianttest",
-          "value": "1"
-        }, {
-          "name": "ltext",
-          "value": {
-            "de": "2",
-            "en": "1"
-          }
-        }, {
-          "name": "setoftext",
-          "value": ["2", "1"]
-        }, {
-          "name": "enum",
-          "value": {
-            "label": "a",
-            "key": "a"
-          }
-        }, {
-          "name": "lenum",
-          "value": {
-            "label": {
-              "de": "a",
-              "en": "a"
-            },
-            "key": "a"
-          }
-        }, {
-          "name": "completeness",
-          "value": {
-            "de": "67",
-            "en": "65"
-          }
-        }, {
-          "name": "missingvalues",
-          "value": {
-            "en": "masterData.staged.variants.0.attributes.6.value.de\nmasterData.staged.variants.0.attributes.6.value.en\nmasterData.staged.variants.0.attributes.9.value.typeId\nmasterData.staged.variants.0.attributes.9.value.id\nmasterData.staged.variants.0.attributes.10.value.label\nmasterData.staged.variants.0.attributes.10.value.key\nmasterData.staged.masterVariant.attributes[$.name=lenum]\nmasterData.staged.variants.0.attributes",
-            "de": "masterData.staged.variants.0.attributes.6.value.de\nmasterData.staged.variants.0.attributes.6.value.en\nmasterData.staged.variants.0.attributes.9.value.typeId\nmasterData.staged.variants.0.attributes.9.value.id\nmasterData.staged.variants.0.attributes.10.value.label\nmasterData.staged.variants.0.attributes.10.value.key\nmasterData.staged.masterVariant.attributes[$.name=lenum]\nmasterData.staged.variants.0.attributes"
-          }
-        }, {
-          "name": "referenceproduct",
-          "value": {
-            "id": "de642648-8a9e-4d84-a79e-ebe190e1c2bc",
-            "typeId": "product"
-          }
-        }],
+        "attributes": ["?(@.name==\"test1\")", "?(@.name==\"test2\")", "?(@.name==\"test3\")", "?(@.name==\"varianttest\")", "?(@.name==\"ltext\")", "?(@.name==\"setoftext\")", "?(@.name==\"enum\")", "?(@.name==\"lenum\")", "?(@.name==\"referenceproduct\")"],
         "assets": []
       }],
       "searchKeywords": {}

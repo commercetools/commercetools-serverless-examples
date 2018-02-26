@@ -14,8 +14,8 @@ exports.diff = function diff(req, res) {
     if (req.body.resource.typeId == 'product' && req.body.resource.obj) {
         const product = JSON.stringify(req.body.resource.obj);
         if (product) {
+
             const localizations = utils.getRequiredLocalizations(JSON.parse(completeProduct));
-            console.log("Required localizations: " + localizations.toString());
 
             let requiredValues = {};
             let missingValues = {};
@@ -30,9 +30,11 @@ exports.diff = function diff(req, res) {
                 missingValues[localization] = utils.productDiff(completeProductLocalized, productLocalized, localizations);
 
                 if (requiredValues[localization].length > 0) {
-                    completeness[localization] = Math.round(100 - ((100 / requiredValues[localization].length) * missingValues[localization].length));
+                    completeness[localization] = String(Math.round(100 - ((100 / requiredValues[localization].length) * missingValues[localization].length)));
+                    missingValues[localization] = JSON.stringify(missingValues[localization]);
                 } else if (requiredValues[localization].length < 1) {
-                    // Error: "Your config files don't define any different properties for incomplete and complete products"
+                    completeness[localization] = 'Error: Division by zero';
+                    console.log("Error: Your config files don't define any different properties for incomplete and complete products")
                 }
             })
 
@@ -52,10 +54,11 @@ exports.diff = function diff(req, res) {
         } else {
             res.send(200).end();
         }
-    }else{
-        // Error: "Request payload does not contain a valid product"
+    } else {
+        res.send(200).end();
+        console.log("Error: Request payload does not contain a valid product")
     }
 }
 
 //For simplified local testing...
-//exports.diff({body: {resource: { obj: require('./test/resources/product.json')}}});
+//exports.diff({body: {resource: {typeId: 'product', obj: require('./test/resources/product.json')}}});

@@ -120,20 +120,6 @@
             }
           },
           {
-            "name": "completeness",
-            "value": {
-              "de": "67",
-              "en": "65"
-            }
-          },
-          {
-            "name": "missingvalues",
-            "value": {
-              "en": "masterData.staged.variants.0.attributes.6.value.de\nmasterData.staged.variants.0.attributes.6.value.en\nmasterData.staged.variants.0.attributes.9.value.typeId\nmasterData.staged.variants.0.attributes.9.value.id\nmasterData.staged.variants.0.attributes.10.value.label\nmasterData.staged.variants.0.attributes.10.value.key\nmasterData.staged.masterVariant.attributes[$.name=lenum]\nmasterData.staged.variants.0.attributes",
-              "de": "masterData.staged.variants.0.attributes.6.value.de\nmasterData.staged.variants.0.attributes.6.value.en\nmasterData.staged.variants.0.attributes.9.value.typeId\nmasterData.staged.variants.0.attributes.9.value.id\nmasterData.staged.variants.0.attributes.10.value.label\nmasterData.staged.variants.0.attributes.10.value.key\nmasterData.staged.masterVariant.attributes[$.name=lenum]\nmasterData.staged.variants.0.attributes"
-            }
-          },
-          {
             "name": "referenceproduct",
             "value": {
               "id": "de642648-8a9e-4d84-a79e-ebe190e1c2bc",
@@ -195,20 +181,6 @@
                   "en": "a"
                 },
                 "key": "a"
-              }
-            },
-            {
-              "name": "completeness",
-              "value": {
-                "de": "67",
-                "en": "65"
-              }
-            },
-            {
-              "name": "missingvalues",
-              "value": {
-                "en": "masterData.staged.variants.0.attributes.6.value.de\nmasterData.staged.variants.0.attributes.6.value.en\nmasterData.staged.variants.0.attributes.9.value.typeId\nmasterData.staged.variants.0.attributes.9.value.id\nmasterData.staged.variants.0.attributes.10.value.label\nmasterData.staged.variants.0.attributes.10.value.key\nmasterData.staged.masterVariant.attributes[$.name=lenum]\nmasterData.staged.variants.0.attributes",
-                "de": "masterData.staged.variants.0.attributes.6.value.de\nmasterData.staged.variants.0.attributes.6.value.en\nmasterData.staged.variants.0.attributes.9.value.typeId\nmasterData.staged.variants.0.attributes.9.value.id\nmasterData.staged.variants.0.attributes.10.value.label\nmasterData.staged.variants.0.attributes.10.value.key\nmasterData.staged.masterVariant.attributes[$.name=lenum]\nmasterData.staged.variants.0.attributes"
               }
             },
             {

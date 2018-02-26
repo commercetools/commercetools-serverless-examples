@@ -24,7 +24,7 @@ describe('Utils', () => {
         const completeProductLocalized = utils.normalize(completeProduct, 'de');
         const incompleteProductLocalized = utils.normalize(incompleteProduct, 'de');
         const allMissingValues = utils.productDiff(completeProductLocalized, incompleteProductLocalized);
-        expect(allMissingValues).to.have.lengthOf(23);
+        expect(allMissingValues).to.have.lengthOf(21);
     })
 
 })

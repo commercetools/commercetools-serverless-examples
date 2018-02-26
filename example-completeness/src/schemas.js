@@ -4,42 +4,25 @@ import LocalizableNormalizer from './LocalizableNormalizer'
 
 exports.schemas = {
     attributes: {
-        path: '$.masterData.staged.masterVariant.attributes.*',
+        path: ['$.masterData.staged.masterVariant.attributes.*',
+            '$.masterData.staged.variants[*].attributes.*'],
         identifiers: ['name'],
         localizablePath: '$.value',
         normalizer: AttributeNormalizer
     },
     prices: {
-        path: '$.masterData.staged.masterVariant.prices.*',
+        path: ['$.masterData.staged.masterVariant.prices.*'],
         identifiers: ['country', 'channel.id', 'value.currencyCode'],
         normalizer: PriceNormalizer
     },
-    name: {
-        path: '$.masterData.staged.name',
-        normalizer: LocalizableNormalizer
-    },
-    description: {
-        path: '$.masterData.staged.description',
-        normalizer: LocalizableNormalizer
-    },
-    slug: {
-        path: '$.masterData.staged.slug',
-        normalizer: LocalizableNormalizer
-    },
-    searchKeywords: {
-        path: '$.masterData.staged.searchKeywords',
-        normalizer: LocalizableNormalizer
-    },
-    metaTitle: {
-        path: '$.masterData.staged.metaTitle',
-        normalizer: LocalizableNormalizer
-    },
-    metaDescription: {
-        path: '$.masterData.staged.metaDescription',
-        normalizer: LocalizableNormalizer
-    },
-    metaKeywords: {
-        path: '$.masterData.staged.metaKeywords',
+    localizables: {
+        path: ['$.masterData.staged.name',
+            '$.masterData.staged.description',
+            '$.masterData.staged.slug',
+            '$.masterData.staged.searchKeywords',
+            '$.masterData.staged.metaTitle',
+            '$.masterData.staged.metaDescription',
+            '$.masterData.staged.metaKeywords'],
         normalizer: LocalizableNormalizer
     }
 }

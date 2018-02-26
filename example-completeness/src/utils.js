@@ -7,8 +7,10 @@ const schemas = require('./schemas.js').schemas;
 exports.getRequiredLocalizations = function (product) {
     let localizations = [];
     _.forOwn(schemas, function(schema){
-        schema.normalizer.getLocalizations(product, schema.path).forEach(function(localization){
-            localizations.push(localization);
+        _.forEach(schema.path, (path) => {
+            schema.normalizer.getLocalizations(product, path).forEach((localization) => {
+                localizations.push(localization);
+            })
         })
     });
     return _.uniq(localizations);
@@ -19,7 +21,9 @@ exports.normalize = function (product, localization) {
     delete product.masterData.current;
     _.forOwn(schemas, function (schema) {
         schema.localization = localization;
-        jp.apply(product, schema.path, schema.normalizer.normalize.bind(schema));
+        _.forEach(schema.path, (path) => {
+            jp.apply(product, path, schema.normalizer.normalize.bind(schema));
+        })
     });
     return product;
 }
@@ -34,12 +38,12 @@ exports.productDiff = function (completeProduct, product) {
     const differences = diff(completeProduct, product);
     // Find missing object properties
     const missingValues = _.filter(differences, {kind: 'D'});
-    let missingValuePaths = _.map(missingValues, function (missingValue) {
+    let missingValuePaths = _.map(missingValues, (missingValue) => {
         return missingValue.path.join(".");
     });
     // Find missing array elements
     const missingArrayElements = _.filter(differences, {kind: 'A', item: {kind: 'D'}});
-    const missingArrayPaths = _.map(missingArrayElements, function (missingArrayElement) {
+    const missingArrayPaths = _.map(missingArrayElements, (missingArrayElement) => {
         let path = missingArrayElement.path.join(".");
         if (typeof missingArrayElement.item.lhs === "string") {
             path += "[" + missingArrayElement.item.lhs + "]";
