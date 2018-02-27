@@ -3,11 +3,11 @@ const adapter = require('./ctp-extension-azure-adapter.js');
 // var adapter = require('./ctp-extension-gcf-adapter.js');
 // exports.handler = adapter.ctpExtensionAdapter(addInsurance);
 
-const addInsurance = (input, ctpResponse, log) => {
+const addInsurance = (request, ctpResponse, log) => {
   // Use an ID from your project!
   const taxCategoryId = 'af6532f2-2f74-4e0d-867f-cc9f6d0b7c5a';
 
-  const cart = input.resource.obj;
+  const cart = request.resource.obj;
   // If the cart contains any line item that is worth more than $500,
   // mandatory insurance needs to be added.
   const cartRequiresInsurance = cart.lineItems.some(
@@ -47,4 +47,4 @@ const addInsurance = (input, ctpResponse, log) => {
   }
 };
 
-module.exports = adapter.ctpExtensionAdapter(addInsurance);
+module.exports = adapter.create(addInsurance);
