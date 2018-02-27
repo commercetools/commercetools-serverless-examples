@@ -1,0 +1,14 @@
+{
+  "displayName": "test",
+  "setupFiles": [],
+  "setupTestFrameworkScriptFile": "./.jest-runner-testrc.js",
+  "snapshotSerializers": [],
+  "testRegex": "\\.spec\\.js$",
+  "testEnvironment": "jsdom",
+  "testPathIgnorePatterns": [
+    "/node_modules/",
+    "/packages/.*/node_modules",
+    "/packages/.*/dist"
+  ],
+  "coveragePathIgnorePatterns": ["/node_modules/"]
+}
