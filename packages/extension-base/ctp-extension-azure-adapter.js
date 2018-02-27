@@ -1,14 +1,14 @@
-// Google Cloud Functions
+// Azure
 
 module.exports = {
   ctpExtensionAdapter: function(fn) {
-    return function(req, res) {
-      fn(req.body, ctpResponse(res), console.log);
+    return function(context, req) {
+      fn(req.body, ctpResponse(context), context.log);
     }
   }
 }
 
-function ctpResponse(res) {
+function ctpResponse(context) {
   return {
     reject: createReject(context),
     accept: createAccept(context),
@@ -17,15 +17,22 @@ function ctpResponse(res) {
 
 const createReject = context => (error) => {
   var errorArray = Array.isArray(error) ? error : [error]
-  res.status(400).json({
-    errors : errorArray
-  });
+  context.res = {
+    status: 400,
+    body : {
+      errors : [errorArray]
+    }
+  };
+  context.done();
 }
 
 const createAccept = context => (update = []) => {
   var actionsArray = Array.isArray(update) ? update : [update]
-  res.status(200).json({
-    actions : actionsArray
-  });
+  context.res = {
+    status: 200,
+    body : {
+      actions : actionsArray
+    }
+  };
+  context.done();
 }
-
