@@ -11,7 +11,7 @@
     "build": "lerna run --parallel build",
     "lint": "flow check && ./scripts/lint packages",
     "test": "cross-env NODE_ENV=development jest --config .jestrc.json",
-    "format": "prettier --write '{packages}/**/*.js'",
+    "format": "prettier --write 'packages/**/*.js'",
     "test:coverage": "npm run build && npm test -- --no-watchman --coverage",
     "test:ci": "npm run test -- --no-watchman --maxWorkers=10",
     "test:coverage:ci": "npm run test:ci -- --coverage && codecov",
