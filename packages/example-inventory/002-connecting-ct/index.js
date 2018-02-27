@@ -1,18 +1,18 @@
 // require CT sdk libraries
-const createClient = require("@commercetools/sdk-client").createClient;
-const createHttpMiddleware = require("@commercetools/sdk-middleware-http")
+const createClient = require('@commercetools/sdk-client').createClient;
+const createHttpMiddleware = require('@commercetools/sdk-middleware-http')
   .createHttpMiddleware;
-const createQueueMiddleware = require("@commercetools/sdk-middleware-queue")
+const createQueueMiddleware = require('@commercetools/sdk-middleware-queue')
   .createQueueMiddleware;
-const createAuthMiddlewareForClientCredentialsFlow = require("@commercetools/sdk-middleware-auth")
+const createAuthMiddlewareForClientCredentialsFlow = require('@commercetools/sdk-middleware-auth')
   .createAuthMiddlewareForClientCredentialsFlow;
-const createRequestBuilder = require("@commercetools/api-request-builder")
+const createRequestBuilder = require('@commercetools/api-request-builder')
   .createRequestBuilder;
-const createLoggerMiddleware = require("@commercetools/sdk-middleware-logger")
+const createLoggerMiddleware = require('@commercetools/sdk-middleware-logger')
   .createLoggerMiddleware;
 
 // import config from config.json
-const config = require("./config.json");
+const config = require('./config.json');
 
 /**
  * Provides a client to communicate with commercetools.
@@ -26,18 +26,18 @@ const createCTClient = () => {
         projectKey: config.CT_PROJECT_KEY,
         credentials: {
           clientId: config.CT_CLIENT_ID,
-          clientSecret: config.CT_CLIENT_SECRET
+          clientSecret: config.CT_CLIENT_SECRET,
         },
         scopes:
-          config.CT_SCOPES.indexOf(" ") > 0
-            ? config.CT_SCOPES.split(" ")
-            : [config.CT_SCOPES]
+          config.CT_SCOPES.indexOf(' ') > 0
+            ? config.CT_SCOPES.split(' ')
+            : [config.CT_SCOPES],
       }),
       createHttpMiddleware({
-        host: config.CT_API_HOST
+        host: config.CT_API_HOST,
       }),
-      createLoggerMiddleware()
-    ]
+      createLoggerMiddleware(),
+    ],
   });
   return client;
 };
@@ -59,7 +59,7 @@ exports.helloWorld = function helloWorld(req, res) {
   // Example input: {"sku": "cool-product-123"}
   if (req.body.sku === undefined) {
     // This is an error case, as "sku" is required.
-    res.status(400).send("No sku defined!");
+    res.status(400).send('No sku defined!');
   } else {
     // Everything is okay.
     // Let's attempt to look up the inventory for that sku
@@ -68,8 +68,8 @@ exports.helloWorld = function helloWorld(req, res) {
       .where(`sku="${req.body.sku}"`)
       .build();
     const inventoryRequest = {
-      method: "GET",
-      uri: inventoryUri
+      method: 'GET',
+      uri: inventoryUri,
     };
     const client = createCTClient();
     client
@@ -79,7 +79,7 @@ exports.helloWorld = function helloWorld(req, res) {
         if (!results.length) {
           return res
             .status(404)
-            .json({ error: "Inventory for SKU not found!" });
+            .json({ error: 'Inventory for SKU not found!' });
         }
         res.status(200).json(results);
       })
