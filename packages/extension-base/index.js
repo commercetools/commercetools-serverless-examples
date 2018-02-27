@@ -1,23 +1,22 @@
-var adapter = require('./ctp-extension-azure-adapter.js');
-module.exports = adapter.ctpExtensionAdapter(addInsurance);
+const adapter = require('./ctp-extension-azure-adapter.js');
 
 // var adapter = require('./ctp-extension-gcf-adapter.js');
 // exports.handler = adapter.ctpExtensionAdapter(addInsurance);
 
-function addInsurance(input, ctpResponse, log) {
+const addInsurance = (input, ctpResponse, log) => {
   // Use an ID from your project!
-  var taxCategoryId = 'af6532f2-2f74-4e0d-867f-cc9f6d0b7c5a';
+  const taxCategoryId = 'af6532f2-2f74-4e0d-867f-cc9f6d0b7c5a';
 
-  var cart = input.resource.obj;
+  const cart = input.resource.obj;
   // If the cart contains any line item that is worth more than $500,
   // mandatory insurance needs to be added.
-  var cartRequiresInsurance = cart.lineItems.some(
+  const cartRequiresInsurance = cart.lineItems.some(
     lineItem => lineItem.totalPrice.centAmount > 50000
   );
-  var insuranceItem = cart.customLineItems.find(customLineItem => {
-    return customLineItem.slug == 'mandatory-insurance';
-  });
-  var cartHasInsurance = insuranceItem != undefined;
+  const insuranceItem = cart.customLineItems.find(
+    customLineItem => customLineItem.slug === 'mandatory-insurance'
+  );
+  const cartHasInsurance = insuranceItem !== undefined;
 
   if (cartRequiresInsurance && !cartHasInsurance) {
     log('adding insurance');
@@ -46,4 +45,6 @@ function addInsurance(input, ctpResponse, log) {
     log('nothing to do');
     ctpResponse.accept();
   }
-}
+};
+
+module.exports = adapter.ctpExtensionAdapter(addInsurance);

@@ -1,38 +1,36 @@
 // Azure
 
-module.exports = {
-  ctpExtensionAdapter: function(fn) {
-    return function(context, req) {
-      fn(req.body, ctpResponse(context), context.log);
-    };
-  },
-};
-
-function ctpResponse(context) {
-  return {
-    reject: createReject(context),
-    accept: createAccept(context),
-  };
-}
-
-const createReject = context => error => {
-  var errorArray = Array.isArray(error) ? error : [error];
-  context.res = {
+const createReject = ctx => error => {
+  const errorArray = Array.isArray(error) ? error : [error];
+  ctx.res = {
     status: 400,
     body: {
       errors: [errorArray],
     },
   };
-  context.done();
+  ctx.done();
 };
 
-const createAccept = context => (update = []) => {
-  var actionsArray = Array.isArray(update) ? update : [update];
-  context.res = {
+const createAccept = ctx => (update = []) => {
+  const actionsArray = Array.isArray(update) ? update : [update];
+  ctx.res = {
     status: 200,
     body: {
       actions: actionsArray,
     },
   };
-  context.done();
+  ctx.done();
+};
+
+const ctpResponse = ctx => ({
+  reject: createReject(ctx),
+  accept: createAccept(ctx),
+});
+
+module.exports = {
+  ctpExtensionAdapter(fn) {
+    return (ctx, req) => {
+      fn(req.body, ctpResponse(ctx), ctx.log);
+    };
+  },
 };
