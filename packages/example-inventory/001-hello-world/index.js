@@ -11,7 +11,8 @@ exports.helloWorld = function helloWorld(req, res) {
     res.status(400).send('No sku defined!');
   } else {
     // Everything is okay.
+    // eslint-disable-next-line no-console
     console.log(req.body.sku);
-    res.status(200).send('Inventory: ' + parseInt(Math.random() * 1000));
+    res.status(200).send(`Inventory: ${parseInt(Math.random() * 1000, 10)}`);
   }
 };

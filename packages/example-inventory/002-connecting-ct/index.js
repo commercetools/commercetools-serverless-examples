@@ -45,9 +45,8 @@ const createCTClient = () => {
 /**
  * Creates a request builder
  */
-const createCTRequestBuilder = () => {
-  return createRequestBuilder({ projectKey: config.CT_PROJECT_KEY });
-};
+const createCTRequestBuilder = () =>
+  createRequestBuilder({ projectKey: config.CT_PROJECT_KEY });
 
 /**
  * Responds to any HTTP request that can provide a "sku" field in the body.
@@ -81,9 +80,11 @@ exports.helloWorld = function helloWorld(req, res) {
             .status(404)
             .json({ error: 'Inventory for SKU not found!' });
         }
-        res.status(200).json(results);
+
+        return res.status(200).json(results);
       })
       .catch(e => {
+        // eslint-disable-next-line no-console
         console.error(e);
         res.status(400).json(e);
       });
