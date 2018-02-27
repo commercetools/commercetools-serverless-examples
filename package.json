@@ -6,16 +6,20 @@
     "npm": ">=5"
   },
   "scripts": {
-    "postinstall": "check-node-version --package --print && npm run bootstrap && cross-env NODE_ENV=development npm run build",
+    "postinstall":
+      "check-node-version --package --print && npm run bootstrap && cross-env NODE_ENV=development npm run build",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run --parallel build",
     "lint": "flow check && ./scripts/lint packages",
     "test": "cross-env NODE_ENV=development jest --config .jestrc.json",
-    "format": "prettier --write 'packages/**/*.js'",
+    "format:js": "prettier --write 'packages/**/*.js'",
+    "format:md": "prettier --parser markdown --write '*.md'",
+    "fix:eslint": "eslint --fix --format=node_modules/eslint-formatter-pretty",
     "test:coverage": "npm run build && npm test -- --no-watchman --coverage",
     "test:ci": "npm run test -- --no-watchman --maxWorkers=10",
     "test:coverage:ci": "npm run test:ci -- --coverage && codecov",
-    "release": "cross-env NODE_ENV=cli npm run build && lerna publish --registry=https://registry.npmjs.org/"
+    "release":
+      "cross-env NODE_ENV=cli npm run build && lerna publish --registry=https://registry.npmjs.org/"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
@@ -50,6 +54,7 @@
     "eslint-plugin-react": "7.6.1",
     "jest": "22.1.4",
     "lerna": "2.9.0",
+    "lint-staged": "7.0.0",
     "prettier": "1.10.2",
     "rimraf": "2.6.2",
     "rollup": "0.55.5",
@@ -63,5 +68,9 @@
     "rollup-plugin-replace": "2.0.0",
     "rollup-plugin-uglify": "2.0.1",
     "rollup-watch": "4.3.1"
+  },
+  "lint-staged": {
+    "packages/**/*.js": ["npm run fix:eslint", "npm run format:js", "git add"],
+    "*.md": ["npm run format:md", "git add"]
   }
 }
