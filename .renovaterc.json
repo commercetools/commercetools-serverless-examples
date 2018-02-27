@@ -4,5 +4,6 @@
     ":pinOnlyDevDependencies",
     "group:monorepos",
     "schedule:weekly"
-  ]
+  ],
+  "statusCheckVerify": true
 }
