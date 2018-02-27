@@ -11,7 +11,7 @@ module.exports = {
 function ctpResponse(context) {
   return {
     reject: createReject(context),
-    resolve: createResolve(context),
+    accept: createAccept(context),
   }
 }
 
@@ -26,7 +26,7 @@ const createReject = context => (error) => {
   context.done();
 }
 
-const createResolve = context => (update = []) => {
+const createAccept = context => (update = []) => {
   var actionsArray = Array.isArray(update) ? update : [update]
   context.res = {
     status: 200,
