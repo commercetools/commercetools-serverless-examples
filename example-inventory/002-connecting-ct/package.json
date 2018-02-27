@@ -2,11 +2,11 @@
   "name": "inventory-microservice",
   "version": "0.0.2",
   "dependencies": {
-    "@commercetools/api-request-builder": "^3.2.0",
-    "@commercetools/sdk-client": "^1.4.1",
-    "@commercetools/sdk-middleware-auth": "^3.1.0",
-    "@commercetools/sdk-middleware-http": "^2.2.0",
-    "@commercetools/sdk-middleware-queue": "^1.1.0",
-    "@commercetools/sdk-middleware-logger": "^1.0.0"
+    "@commercetools/api-request-builder": "3.7.0",
+    "@commercetools/sdk-client": "1.5.4",
+    "@commercetools/sdk-middleware-auth": "3.4.8",
+    "@commercetools/sdk-middleware-http": "2.2.7",
+    "@commercetools/sdk-middleware-queue": "1.1.4",
+    "@commercetools/sdk-middleware-logger": "1.0.4"
   }
 }
