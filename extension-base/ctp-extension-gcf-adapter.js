@@ -3,55 +3,29 @@
 module.exports = {
   ctpExtensionAdapter: function(fn) {
     return function(req, res) {
-      fn(req.body, ctpGcfResponse(res), console.log);
+      fn(req.body, ctpResponse(res), console.log);
     }
   }
 }
 
-function ctpGcfResponse(res) {
+function ctpResponse(res) {
   return {
-    pass: passGcf(res),
-    errors: errorsGcf(res),
-    error: errorGcf(res),
-    updates: updatesGcf(res),
-    update: updateGcf(res),
+    reject: createReject(context),
+    accept: createAccept(context),
   }
 }
 
-function passGcf(res) {
-  return function() {
-    res.status(200).end();
-  }
+const createReject = context => (error) => {
+  var errorArray = Array.isArray(error) ? error : [error]
+  res.status(400).json({
+    errors : errorArray
+  });
 }
 
-function errorsGcf(res) {
-  return function(errors) {
-    res.status(400).json({
-      errors : errors
-    });
-  }
+const createAccept = context => (update = []) => {
+  var actionsArray = Array.isArray(update) ? update : [update]
+  res.status(200).json({
+    actions : actionsArray
+  });
 }
 
-function errorGcf(res) {
-  return function(error) {
-    res.status(400).json({
-      errors : [error]
-    });
-  }
-}
-
-function updatesGcf(res) {
-  return function(updateActions) {
-    res.status(200).json({
-      actions : updateActions
-    });
-  }
-}
-
-function updateGcf(res) {
-  return function(updateAction) {
-    res.status(200).json({
-      actions : [updateAction]
-    });
-  }
-}

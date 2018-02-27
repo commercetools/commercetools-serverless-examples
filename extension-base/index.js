@@ -21,7 +21,7 @@ function addInsurance(input, ctpResponse, log) {
   
   if (cartRequiresInsurance && !cartHasInsurance) {
     log("adding insurance");
-    ctpResponse.resolve([{
+    ctpResponse.accept([{
       action: "addCustomLineItem",
       name: { en: "Mandatory Insurance for Items above $500" },
       money: {
@@ -37,14 +37,14 @@ function addInsurance(input, ctpResponse, log) {
   }
   else if (!cartRequiresInsurance && cartHasInsurance) {
     log("removing insurance");
-    ctpResponse.resolve({
+    ctpResponse.accept({
       action: "removeCustomLineItem",
       customLineItemId: insuranceItem.id
     });
   }
   else {
     log("nothing to do");
-    ctpResponse.resolve();
+    ctpResponse.accept();
   }
 };
 
