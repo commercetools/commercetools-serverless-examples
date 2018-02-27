@@ -68,6 +68,34 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
+"@commercetools/api-request-builder@^3.2.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@commercetools/api-request-builder/-/api-request-builder-3.7.0.tgz#d059348b7d7068261a9fc3820cf4d05da79bdea0"
+
+"@commercetools/sdk-client@^1.4.1":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@commercetools/sdk-client/-/sdk-client-1.5.4.tgz#fabe18fa743e766026322fb1b899b06bf44ec399"
+
+"@commercetools/sdk-middleware-auth@^3.1.0":
+  version "3.4.7"
+  resolved "https://registry.yarnpkg.com/@commercetools/sdk-middleware-auth/-/sdk-middleware-auth-3.4.7.tgz#ab93b8f9f8aa276f5910bedd17e5b4a2bcfcd03f"
+  dependencies:
+    isomorphic-fetch "2.2.1"
+
+"@commercetools/sdk-middleware-http@^2.2.0":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@commercetools/sdk-middleware-http/-/sdk-middleware-http-2.2.6.tgz#f76e39c04da71895fc02f8e83f690695a7896ec0"
+  dependencies:
+    isomorphic-fetch "2.2.1"
+
+"@commercetools/sdk-middleware-logger@^1.0.0":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@commercetools/sdk-middleware-logger/-/sdk-middleware-logger-1.0.4.tgz#69e19750510f3fc754d16708d41c38c48dfa17a0"
+
+"@commercetools/sdk-middleware-queue@^1.1.0":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@commercetools/sdk-middleware-queue/-/sdk-middleware-queue-1.1.4.tgz#89c4d640be4c776ee743fc8cfd8bec03c68c5cc6"
+
 "@semantic-release/commit-analyzer@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-2.0.0.tgz#924d1e2c30167c6a472bed9f66ee8f8e077489b2"
@@ -3579,7 +3607,7 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
 
-isomorphic-fetch@^2.1.1:
+isomorphic-fetch@2.2.1, isomorphic-fetch@^2.1.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
   dependencies:

@@ -1,6 +1,6 @@
 {
   "name": "inventory-microservice",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "dependencies": {
     "@commercetools/api-request-builder": "^3.2.0",
     "@commercetools/sdk-client": "^1.4.1",
