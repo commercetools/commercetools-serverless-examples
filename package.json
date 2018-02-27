@@ -10,13 +10,16 @@
       "check-node-version --package --print && npm run bootstrap && cross-env NODE_ENV=development npm run build",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run --parallel build",
-    "lint": "flow check && ./scripts/lint packages",
-    "test": "cross-env NODE_ENV=development jest --config .jestrc.json",
+    "lint": "jest --config .jestrc.lint.json",
+    "test": "cross-env NODE_ENV=test jest --config .jestrc.test.json",
+    "test:watch": "cross-env NODE_ENV=test npm test -- --watch",
+    "test:ci":
+      "cross-env NODE_ENV=test npm test -- --no-watchman --maxWorkers=10",
+    "test:ci:coverage":
+      "cross-env NODE_ENV=test npm test -- --no-watchman --coverage && codecov",
     "format:js": "prettier --write 'packages/**/*.js'",
     "format:md": "prettier --parser markdown --write '*.md'",
     "fix:eslint": "eslint --fix --format=node_modules/eslint-formatter-pretty",
-    "test:coverage": "npm run build && npm test -- --no-watchman --coverage",
-    "test:ci": "npm run test -- --no-watchman --maxWorkers=10",
     "test:coverage:ci": "npm run test:ci -- --coverage && codecov",
     "release":
       "cross-env NODE_ENV=cli npm run build && lerna publish --registry=https://registry.npmjs.org/"
