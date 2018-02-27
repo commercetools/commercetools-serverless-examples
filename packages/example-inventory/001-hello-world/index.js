@@ -8,10 +8,10 @@ exports.helloWorld = function helloWorld(req, res) {
   // Example input: {"sku": "cool-product-123"}
   if (req.body.sku === undefined) {
     // This is an error case, as "sku" is required.
-    res.status(400).send("No sku defined!");
+    res.status(400).send('No sku defined!');
   } else {
     // Everything is okay.
     console.log(req.body.sku);
-    res.status(200).send("Inventory: " + parseInt(Math.random() * 1000));
+    res.status(200).send('Inventory: ' + parseInt(Math.random() * 1000));
   }
 };

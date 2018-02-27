@@ -17,6 +17,7 @@
       "cross-env NODE_ENV=test npm test -- --no-watchman --maxWorkers=10",
     "test:ci:coverage":
       "cross-env NODE_ENV=test npm test -- --no-watchman --coverage && codecov",
+    "format": "npm run format:js && npm run format:md",
     "format:js": "prettier --write 'packages/**/*.js'",
     "format:md": "prettier --parser markdown --write '*.md'",
     "fix:eslint": "eslint --fix --format=node_modules/eslint-formatter-pretty",

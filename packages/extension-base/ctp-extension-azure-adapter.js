@@ -5,13 +5,13 @@ module.exports = {
     return function(context, req) {
       fn(req.body, ctpResponse(context), context.log);
     };
-  }
+  },
 };
 
 function ctpResponse(context) {
   return {
     reject: createReject(context),
-    accept: createAccept(context)
+    accept: createAccept(context),
   };
 }
 
@@ -20,8 +20,8 @@ const createReject = context => error => {
   context.res = {
     status: 400,
     body: {
-      errors: [errorArray]
-    }
+      errors: [errorArray],
+    },
   };
   context.done();
 };
@@ -31,8 +31,8 @@ const createAccept = context => (update = []) => {
   context.res = {
     status: 200,
     body: {
-      actions: actionsArray
-    }
+      actions: actionsArray,
+    },
   };
   context.done();
 };
