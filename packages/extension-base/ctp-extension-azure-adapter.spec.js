@@ -22,7 +22,7 @@ describe('when creating', () => {
     response = createResponse();
     context = createContext(response);
 
-    adapter.create(fn)(context, request);
+    adapter.createExtensionAdapter(fn)(context, request);
   });
 
   it('should invoke the `fn`', () => {
