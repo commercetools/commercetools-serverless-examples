@@ -1,6 +1,4 @@
-import PriceNormalizer from '../../PriceNormalizer';
-
-import { expect } from 'chai';
+const PriceNormalizer = require('../../src/PriceNormalizer');
 
 describe('PriceNormalizer', () => {
   it('should return the correct JSONpath for a price', () => {
@@ -21,7 +19,7 @@ describe('PriceNormalizer', () => {
       identifiers: ['country', 'channel.id', 'value.currencyCode'],
     };
     const jsonpath = PriceNormalizer.normalize.bind(config)(price);
-    expect(jsonpath).to.equal(
+    expect(jsonpath).toEqual(
       '@.country=="DE" && @.channel.id=="6e55c807-aeae-492c-97a1-b8724f013e20" && @.value.currencyCode=="EUR"'
     );
   });

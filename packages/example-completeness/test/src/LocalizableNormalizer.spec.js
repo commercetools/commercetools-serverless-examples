@@ -1,6 +1,4 @@
-import LocalizableNormalizer from '../../LocalizableNormalizer';
-
-import { expect } from 'chai';
+const LocalizableNormalizer = require('../../src/LocalizableNormalizer');
 
 describe('LocalizableNormalizer', () => {
   it('should return the correct JSONpath for a description', () => {
@@ -12,6 +10,6 @@ describe('LocalizableNormalizer', () => {
       localization: 'de',
     };
     const jsonpath = LocalizableNormalizer.normalize.bind(config)(description);
-    expect(jsonpath.de).to.be.true;
+    expect(jsonpath.de).toBeTruthy();
   });
 });

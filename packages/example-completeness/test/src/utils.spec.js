@@ -1,6 +1,4 @@
-import utils from '../../utils';
-import { expect } from 'chai';
-
+const utils = require('../../src/utils');
 const completeProduct = require('../resources/completeProduct.json');
 const incompleteProduct = require('../resources/incompleteProduct.json');
 const normalizedCompleteProduct = require('../resources/normalizedCompleteProduct.json');
@@ -8,12 +6,12 @@ const normalizedCompleteProduct = require('../resources/normalizedCompleteProduc
 describe('Utils', () => {
   it('should return the required localizations', () => {
     const localizations = utils.getRequiredLocalizations(completeProduct);
-    expect(localizations).to.have.lengthOf(2);
+    expect(localizations).toHaveLength(2);
   });
 
   it('should normalize a product as required', () => {
     const normalizedProduct = utils.normalize(completeProduct, 'de');
-    expect(normalizedProduct).to.deep.equal(normalizedCompleteProduct);
+    expect(normalizedProduct).toEqual(normalizedCompleteProduct);
   });
 
   it('it should identify all required missing values for a localization', () => {
@@ -23,6 +21,6 @@ describe('Utils', () => {
       completeProductLocalized,
       incompleteProductLocalized
     );
-    expect(allMissingValues).to.have.lengthOf(21);
+    expect(allMissingValues).toHaveLength(21);
   });
 });
