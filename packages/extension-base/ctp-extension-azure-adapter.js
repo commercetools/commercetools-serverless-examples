@@ -26,7 +26,7 @@ const ctpResponse = ctx => ({
 });
 
 module.exports = {
-  create: fn => (ctx, req) => {
+  createExtensionAdapter: fn => (ctx, req) => {
     fn(req.body, ctpResponse(ctx), ctx.log);
   },
 };
