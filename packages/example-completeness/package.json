@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "prestart": "npm run build",
-    "start": "node index.js",
-    "build": "$(npm bin)/babel src --out-dir ./"
+    "start": "node lib/index.js",
+    "build": "$(npm bin)/babel src --out-dir ./lib"
   },
   "dependencies": {
     "deep-diff": "0.3.8",
