@@ -1,8 +1,5 @@
-import AttributeNormalizer from '../../AttributeNormalizer';
-
+const AttributeNormalizer = require('../../src/AttributeNormalizer');
 const completeProduct = require('../resources/completeProduct.json');
-
-import { expect } from 'chai';
 
 describe('AttributeNormalizer', () => {
   it('should identify required locales based on the given product', () => {
@@ -10,7 +7,7 @@ describe('AttributeNormalizer', () => {
       completeProduct,
       '$.masterData.staged.masterVariant.attributes.*'
     );
-    expect(localizations).to.have.lengthOf(2);
+    expect(localizations).toHaveLength(2);
   });
 
   it('it should identify attribute type Set', () => {
@@ -19,7 +16,7 @@ describe('AttributeNormalizer', () => {
       value: ['2', '1'],
     };
     const attributeType = AttributeNormalizer.getAttributeType(attribute);
-    expect(attributeType.name).to.equal('set');
+    expect(attributeType.name).toEqual('set');
   });
 
   it('should identify attribute type Reference', () => {
@@ -31,7 +28,7 @@ describe('AttributeNormalizer', () => {
       },
     };
     const attributeType = AttributeNormalizer.getAttributeType(attribute);
-    expect(attributeType.name).to.equal('reference');
+    expect(attributeType.name).toEqual('reference');
   });
 
   it('should identify attribute type localizableEnum', () => {
@@ -46,7 +43,7 @@ describe('AttributeNormalizer', () => {
       },
     };
     const attributeType = AttributeNormalizer.getAttributeType(attribute);
-    expect(attributeType.name).to.equal('localizableEnum');
+    expect(attributeType.name).toEqual('localizableEnum');
   });
 
   it('should identify attribute type Enum', () => {
@@ -58,7 +55,7 @@ describe('AttributeNormalizer', () => {
       },
     };
     const attributeType = AttributeNormalizer.getAttributeType(attribute);
-    expect(attributeType.name).to.equal('enum');
+    expect(attributeType.name).toEqual('enum');
   });
 
   it('should identify attribute type localizableText', () => {
@@ -70,7 +67,7 @@ describe('AttributeNormalizer', () => {
       },
     };
     const attributeType = AttributeNormalizer.getAttributeType(attribute);
-    expect(attributeType.name).to.equal('localizableText');
+    expect(attributeType.name).toEqual('localizableText');
   });
 
   it('should identify attribute type Simple', () => {
@@ -79,7 +76,7 @@ describe('AttributeNormalizer', () => {
       value: '1',
     };
     const attributeType = AttributeNormalizer.getAttributeType(attribute);
-    expect(attributeType.name).to.equal('simple');
+    expect(attributeType.name).toEqual('simple');
   });
 
   it('should return the correct JSONpath for an attribute', () => {
@@ -93,6 +90,6 @@ describe('AttributeNormalizer', () => {
       localizablePath: '$.value',
     };
     const jsonpath = AttributeNormalizer.normalize.bind(config)(attribute);
-    expect(jsonpath).to.equal('?(@.name=="test3")');
+    expect(jsonpath).toEqual('?(@.name=="test3")');
   });
 });
