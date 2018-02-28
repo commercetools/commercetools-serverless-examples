@@ -1,10 +1,10 @@
-import utils from './utils';
+const utils = require('./utils');
 
 const incompleteProduct = JSON.stringify(
-  require('./config/incompleteProduct.json')
+  require('../config/incompleteProduct.json')
 );
 const completeProduct = JSON.stringify(
-  require('./config/completeProduct.json')
+  require('../config/completeProduct.json')
 );
 
 /**
@@ -14,7 +14,7 @@ const completeProduct = JSON.stringify(
  * @param {Object} res Cloud Function response context.
  */
 exports.diff = function diff(req, res) {
-  if (req.body.resource.typeId == 'product' && req.body.resource.obj) {
+  if (req.body.resource.typeId === 'product' && req.body.resource.obj) {
     const product = JSON.stringify(req.body.resource.obj);
     if (product) {
       const localizations = utils.getRequiredLocalizations(
@@ -88,6 +88,7 @@ exports.diff = function diff(req, res) {
     }
   } else {
     res.send(200).end();
+    // eslint-disable-next-line no-console
     console.log('Error: Request payload does not contain a valid product');
   }
 };

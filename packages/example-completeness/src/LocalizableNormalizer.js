@@ -1,7 +1,7 @@
-import _ from 'lodash';
-import jp from 'jsonpath';
+const _ = require('lodash');
+const jp = require('jsonpath');
 
-exports.getLocalizations = function(product, path) {
+exports.getLocalizations = (product, path) => {
   const localizations = [];
   const localizable = jp.query(product, path)[0];
   if (_.isObject(product)) {
@@ -10,7 +10,7 @@ exports.getLocalizations = function(product, path) {
   return localizations;
 };
 
-exports.normalize = function(object) {
+exports.normalize = object => {
   const localization = this.localization;
   const obj = {};
   if (_.isObject(object) && _.has(object, localization)) {

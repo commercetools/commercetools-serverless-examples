@@ -3,9 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "prestart": "npm run build",
-    "test": "npm run build && babel test/src --presets babel-preset-es2015 --out-dir ./test/out && mocha --full-trace --recursive \"./test/out/*.spec.js\"",
     "start": "node index.js",
-    "build": "babel src --presets babel-preset-es2015 --out-dir ./"
+    "build": "$(npm bin)/babel src --out-dir ./"
   },
   "dependencies": {
     "deep-diff": "0.3.8",
@@ -13,5 +12,6 @@
     "jsonpath": "1.0.0"
   },
   "devDependencies": {
+    "babel-cli": "6.26.0"
   }
 }

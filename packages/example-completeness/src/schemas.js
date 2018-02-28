@@ -1,6 +1,6 @@
-import PriceNormalizer from './PriceNormalizer';
-import AttributeNormalizer from './AttributeNormalizer';
-import LocalizableNormalizer from './LocalizableNormalizer';
+const PriceNormalizer = require('./PriceNormalizer');
+const AttributeNormalizer = require('./AttributeNormalizer');
+const LocalizableNormalizer = require('./LocalizableNormalizer');
 
 exports.schemas = {
   attributes: {

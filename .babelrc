@@ -1,0 +1,116 @@
+{
+  "env": {
+    "development": {
+      "presets": [
+        [
+          "env",
+          {
+            "targets": {
+              "node": "current"
+            },
+            "modules": "commonjs"
+          }
+        ],
+        "stage-0"
+      ],
+      "plugins": [
+        "array-includes",
+        "transform-export-extensions",
+        "transform-object-entries",
+        "transform-object-rest-spread",
+        [
+          "module-resolver",
+          {
+            "cwd": "./",
+            "alias": {}
+          }
+        ]
+      ]
+    },
+    "rollup": {
+      "presets": [
+        [
+          "env",
+          {
+            "targets": {
+              "browsers": ["last 2 versions"],
+              "node": "current"
+            },
+            "modules": false
+          }
+        ],
+        "stage-0"
+      ],
+      "plugins": [
+        "external-helpers",
+        "array-includes",
+        "transform-export-extensions",
+        "transform-object-entries",
+        "transform-object-rest-spread",
+        [
+          "module-resolver",
+          {
+            "cwd": "./",
+            "alias": {}
+          }
+        ]
+      ]
+    },
+    "production": {
+      "presets": [
+        [
+          "env",
+          {
+            "targets": {
+              "browsers": ["last 2 versions"],
+              "node": "4"
+            },
+            "modules": false
+          }
+        ],
+        "stage-0"
+      ],
+      "plugins": [
+        "external-helpers",
+        "array-includes",
+        "transform-export-extensions",
+        "transform-object-entries",
+        "transform-object-rest-spread",
+        [
+          "module-resolver",
+          {
+            "cwd": "./",
+            "alias": {}
+          }
+        ]
+      ]
+    },
+    "cli": {
+      "presets": [
+        [
+          "env",
+          {
+            "targets": {
+              "node": "4"
+            },
+            "modules": "commonjs"
+          }
+        ],
+        "stage-0"
+      ],
+      "plugins": [
+        "array-includes",
+        "transform-export-extensions",
+        "transform-object-entries",
+        "transform-object-rest-spread",
+        [
+          "module-resolver",
+          {
+            "cwd": "./",
+            "alias": {}
+          }
+        ]
+      ]
+    }
+  }
+}

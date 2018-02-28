@@ -1,10 +1,9 @@
-import { diff } from 'deep-diff';
-import _ from 'lodash';
-import jp from 'jsonpath';
-
+const { diff } = require('deep-diff');
+const _ = require('lodash');
+const jp = require('jsonpath');
 const schemas = require('./schemas.js').schemas;
 
-exports.getRequiredLocalizations = function(product) {
+exports.getRequiredLocalizations = product => {
   const localizations = [];
   _.forOwn(schemas, schema => {
     _.forEach(schema.path, path => {
@@ -18,9 +17,11 @@ exports.getRequiredLocalizations = function(product) {
   return _.uniq(localizations);
 };
 
-exports.normalize = function(product, localization) {
+exports.normalize = (product, localization) => {
+  // eslint-disable-next-line
   delete product.masterData.current;
   _.forOwn(schemas, schema => {
+    // eslint-disable-next-line
     schema.localization = localization;
     _.forEach(schema.path, path => {
       jp.apply(product, path, schema.normalizer.normalize.bind(schema));
@@ -35,7 +36,7 @@ exports.normalize = function(product, localization) {
  * @param product
  * @returns {Array.<T>|string|Array|*}
  */
-exports.productDiff = function(completeProduct, product) {
+exports.productDiff = (completeProduct, product) => {
   const differences = diff(completeProduct, product);
   // Find missing object properties
   const missingValues = _.filter(differences, { kind: 'D' });
