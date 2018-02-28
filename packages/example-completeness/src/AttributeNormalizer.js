@@ -1,69 +1,52 @@
-import _ from 'lodash';
-import jp from 'jsonpath';
+const _ = require('lodash');
+const jp = require('jsonpath');
 
 const attributeTypes = [
   // @TODO: Add nested type
   {
     name: 'set',
-    identify: attribute => {
-      if (attribute.value && Array.isArray(attribute.value)) {
-        return true;
-      }
-    },
+    identify: attribute =>
+      !!(attribute.value && Array.isArray(attribute.value)),
   },
   {
     name: 'reference',
-    identify: attribute => {
-      if (
+    identify: attribute =>
+      !!(
         typeof attribute.value === 'object' &&
         attribute.value.typeId &&
         (attribute.value.id || attribute.value.key)
-      ) {
-        return true;
-      }
-    },
+      ),
   },
   {
     name: 'localizableEnum',
-    identify: attribute => {
-      if (
+    identify: attribute =>
+      !!(
         attribute.value.label &&
         typeof attribute.value.label === 'object' &&
         attribute.value.key
-      ) {
-        return true;
-      }
-    },
+      ),
     localizablePath: '$.value.label',
   },
   {
     name: 'enum',
-    identify: attribute => {
-      if (attribute.value.label && attribute.value.key) {
-        return true;
-      }
-    },
+    identify: attribute => !!(attribute.value.label && attribute.value.key),
   },
   {
     name: 'localizableText',
-    identify: attribute => {
-      if (typeof attribute.value === 'object') {
-        return true;
-      }
-    },
+    identify: attribute => !!(typeof attribute.value === 'object'),
     localizablePath: '$.value',
   },
   {
     name: 'simple',
-    identify(attribute) {
+    identify() {
       return true;
     },
   },
 ];
 
-exports.getAttributeType = function(attribute) {
+exports.getAttributeType = attribute => {
   if (typeof attribute === 'object') {
-    for (let i = 0; i < attributeTypes.length; i++) {
+    for (let i = 0; i < attributeTypes.length; i += 1) {
       if (attributeTypes[i].identify(attribute)) {
         return attributeTypes[i];
       }
@@ -72,7 +55,7 @@ exports.getAttributeType = function(attribute) {
   return false;
 };
 
-exports.getLocalizations = function(product, path) {
+exports.getLocalizations = (product, path) => {
   const localizations = [];
   jp.query(product, path).forEach(attribute => {
     const attributeType = exports.getAttributeType(attribute);
@@ -88,7 +71,7 @@ exports.getLocalizations = function(product, path) {
   return _.uniq(localizations);
 };
 
-exports.normalize = function(attribute) {
+exports.normalize = attribute => {
   const self = this;
   const attributeType = exports.getAttributeType(attribute);
   if (attributeType) {
@@ -105,8 +88,12 @@ exports.normalize = function(attribute) {
       } else {
         return `@.${identifier}=="${jp.query(attribute, `$.${identifier}`)}"`;
       }
+
+      return null;
     });
     const key = `?(${normalizedArray.join(' && ')})`;
     return key;
   }
+
+  return null;
 };

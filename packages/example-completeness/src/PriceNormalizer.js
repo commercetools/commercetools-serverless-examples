@@ -1,11 +1,9 @@
-import _ from 'lodash';
-import jp from 'jsonpath';
+const _ = require('lodash');
+const jp = require('jsonpath');
 
-exports.getLocalizations = function(product, path) {
-  return [];
-};
+exports.getLocalizations = () => [];
 
-exports.normalize = function(object) {
+exports.normalize = object => {
   const self = this;
   if (_.isObject(object)) {
     const normalizedArray = _.map(this.identifiers, identifier => {
@@ -18,8 +16,12 @@ exports.normalize = function(object) {
       } else {
         return `@.${identifier}=="${jp.query(object, `$.${identifier}`)}"`;
       }
+
+      return null;
     });
     const key = normalizedArray.join(' && ');
     return key;
   }
+
+  return null;
 };
