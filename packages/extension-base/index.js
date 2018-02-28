@@ -1,4 +1,4 @@
-const adapter = require('./ctp-extension-azure-adapter.js');
+const { createExtensionAdapter } = require('./ctp-extension-azure-adapters.js');
 
 // var adapter = require('./ctp-extension-gcf-adapter.js');
 // exports.handler = adapter.ctpExtensionAdapter(addInsurance);
@@ -47,4 +47,4 @@ const addInsurance = (request, ctpResponse, log) => {
   }
 };
 
-module.exports = adapter.create(addInsurance);
+module.exports = createExtensionAdapter(addInsurance);

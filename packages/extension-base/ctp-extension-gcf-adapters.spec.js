@@ -1,4 +1,4 @@
-const adapters = require('./ctp-extension-gcf-adapters');
+const { createExtensionAdapter } = require('./ctp-extension-gcf-adapters');
 
 const createResponse = () => ({ json: jest.fn() });
 const createContext = response => ({
@@ -21,7 +21,7 @@ describe('when creating', () => {
     response = createResponse();
     context = createContext(response);
 
-    adapters.createExtensionAdapter(fn)(context, request);
+    createExtensionAdapter(fn)(context, request);
   });
 
   it('should invoke the `fn`', () => {
