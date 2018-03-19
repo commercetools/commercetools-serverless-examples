@@ -85,9 +85,9 @@
   dependencies:
     isomorphic-fetch "2.2.1"
 
-"@commercetools/sdk-middleware-http@2.2.7":
-  version "2.2.7"
-  resolved "https://registry.yarnpkg.com/@commercetools/sdk-middleware-http/-/sdk-middleware-http-2.2.7.tgz#75500a46e101db4ec1a6d5834f10dbcb2e61e371"
+"@commercetools/sdk-middleware-http@2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@commercetools/sdk-middleware-http/-/sdk-middleware-http-2.3.1.tgz#7278415ee189c0cd7ccbad2e1510b54cc511dddd"
   dependencies:
     isomorphic-fetch "2.2.1"
 
