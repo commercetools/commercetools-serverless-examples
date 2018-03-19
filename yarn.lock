@@ -79,9 +79,9 @@
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@commercetools/sdk-client/-/sdk-client-1.5.4.tgz#fabe18fa743e766026322fb1b899b06bf44ec399"
 
-"@commercetools/sdk-middleware-auth@3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@commercetools/sdk-middleware-auth/-/sdk-middleware-auth-3.4.0.tgz#6826cf5a02d2e3914e97c6a621577fbf5a7c09ad"
+"@commercetools/sdk-middleware-auth@3.5.1":
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/@commercetools/sdk-middleware-auth/-/sdk-middleware-auth-3.5.1.tgz#c383ddc2a0871248273eb659c88aa09faf29d885"
   dependencies:
     isomorphic-fetch "2.2.1"
 
