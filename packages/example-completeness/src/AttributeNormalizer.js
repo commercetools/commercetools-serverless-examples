@@ -71,7 +71,7 @@ exports.getLocalizations = (product, path) => {
   return _.uniq(localizations);
 };
 
-exports.normalize = attribute => {
+exports.normalize = function(attribute) {
   const self = this;
   const attributeType = exports.getAttributeType(attribute);
   if (attributeType) {

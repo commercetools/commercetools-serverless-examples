@@ -10,7 +10,7 @@ exports.getLocalizations = (product, path) => {
   return localizations;
 };
 
-exports.normalize = object => {
+exports.normalize = function(object) {
   const localization = this.localization;
   const obj = {};
   if (_.isObject(object) && _.has(object, localization)) {

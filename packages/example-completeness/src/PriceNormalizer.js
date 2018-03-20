@@ -3,7 +3,7 @@ const jp = require('jsonpath');
 
 exports.getLocalizations = () => [];
 
-exports.normalize = object => {
+exports.normalize = function(object) {
   const self = this;
   if (_.isObject(object)) {
     const normalizedArray = _.map(this.identifiers, identifier => {
