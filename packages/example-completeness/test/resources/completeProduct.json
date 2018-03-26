@@ -1,0 +1,212 @@
+{
+  "id": "de642648-8a9e-4d84-a79e-ebe190e1c2bc",
+  "version": 71,
+  "productType": {
+    "typeId": "product-type",
+    "id": "c8099747-1323-4134-9948-034a4bd52382"
+  },
+  "catalogs": [],
+  "masterData": {
+    "staged": {
+      "name": {
+        "de": "Complete DE",
+        "en": "Complete EN"
+      },
+      "description": {
+        "en": "Complete EN",
+        "de": "Complete DE"
+      },
+      "categories": [
+        {
+          "typeId": "category",
+          "id": "f028e434-a1a8-46ca-be0e-13b96a891062"
+        },
+        {
+          "typeId": "category",
+          "id": "f02bec66-28fd-421c-a902-c0d7fcb7e5db"
+        }
+      ],
+      "categoryOrderHints": {},
+      "slug": {
+        "en": "my-new-product-slug",
+        "de": "mein-neuer-produkt-slug"
+      },
+      "masterVariant": {
+        "id": 1,
+        "prices": [
+          {
+            "value": {
+              "currencyCode": "EUR",
+              "centAmount": 10000
+            },
+            "id": "bb143fb9-9a5c-485d-af1a-fd0360fce6c7"
+          },
+          {
+            "value": {
+              "currencyCode": "EUR",
+              "centAmount": 10000
+            },
+            "id": "63363b15-2cb9-42ee-b0e3-d9143b43c544",
+            "country": "DE"
+          },
+          {
+            "value": {
+              "currencyCode": "EUR",
+              "centAmount": 10000
+            },
+            "id": "4e83bc7c-f80d-4da7-8252-b7da30affc93",
+            "country": "DE",
+            "channel": {
+              "typeId": "channel",
+              "id": "6e55c807-aeae-492c-97a1-b8724f013e20"
+            }
+          }
+        ],
+        "images": [
+          {
+            "url": "https://ebc24f8525db88613638-1dd07b8effb00cfbf3b4b38462413dc9.ssl.cf3.rackcdn.com/27479524_10215398757-TLTwKvjv.jpg",
+            "dimensions": {
+              "w": 4096,
+              "h": 3072
+            }
+          }
+        ],
+        "attributes": [
+          {
+            "name": "test1",
+            "value": "1"
+          },
+          {
+            "name": "test2",
+            "value": "1"
+          },
+          {
+            "name": "test3",
+            "value": "1"
+          },
+          {
+            "name": "varianttest",
+            "value": "1"
+          },
+          {
+            "name": "ltext",
+            "value": {
+              "de": "2",
+              "en": "1"
+            }
+          },
+          {
+            "name": "setoftext",
+            "value": [
+              "2",
+              "1"
+            ]
+          },
+          {
+            "name": "enum",
+            "value": {
+              "label": "a",
+              "key": "a"
+            }
+          },
+          {
+            "name": "lenum",
+            "value": {
+              "label": {
+                "de": "a",
+                "en": "a"
+              },
+              "key": "a"
+            }
+          },
+          {
+            "name": "referenceproduct",
+            "value": {
+              "id": "de642648-8a9e-4d84-a79e-ebe190e1c2bc",
+              "typeId": "product"
+            }
+          }
+        ],
+        "assets": []
+      },
+      "variants": [
+        {
+          "id": 2,
+          "sku": "cvbcvbcvb",
+          "prices": [],
+          "images": [],
+          "attributes": [
+            {
+              "name": "test1",
+              "value": "1"
+            },
+            {
+              "name": "test2",
+              "value": "1"
+            },
+            {
+              "name": "test3",
+              "value": "1"
+            },
+            {
+              "name": "varianttest",
+              "value": "1"
+            },
+            {
+              "name": "ltext",
+              "value": {
+                "de": "2",
+                "en": "1"
+              }
+            },
+            {
+              "name": "setoftext",
+              "value": [
+                "2",
+                "1"
+              ]
+            },
+            {
+              "name": "enum",
+              "value": {
+                "label": "a",
+                "key": "a"
+              }
+            },
+            {
+              "name": "lenum",
+              "value": {
+                "label": {
+                  "de": "a",
+                  "en": "a"
+                },
+                "key": "a"
+              }
+            },
+            {
+              "name": "referenceproduct",
+              "value": {
+                "id": "de642648-8a9e-4d84-a79e-ebe190e1c2bc",
+                "typeId": "product"
+              }
+            }
+          ],
+          "assets": []
+        }
+      ],
+      "searchKeywords": {}
+    },
+    "published": true,
+    "hasStagedChanges": true
+  },
+  "key": "complete",
+  "catalogData": {},
+  "taxCategory": {
+    "typeId": "tax-category",
+    "id": "3aba2226-0693-43b5-bc64-7a6abeb30e6e"
+  },
+  "lastVariantId": 2,
+  "createdAt": "2018-02-08T10:31:44.563Z",
+  "lastModifiedAt": "2018-02-13T10:39:33.276Z",
+  "lastMessageSequenceNumber": 6
+}

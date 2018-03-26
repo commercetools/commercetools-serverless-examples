@@ -1,0 +1,162 @@
+{
+  "masterData": {
+    "staged": {
+      "name": {
+        "de": "required",
+        "en": "required",
+        "fr": "required",
+        "it": "required",
+        "pl": "required",
+        "nl": "required"
+      },
+      "description": {
+        "de": "required",
+        "en": "required",
+        "fr": "required",
+        "it": "required",
+        "pl": "required",
+        "nl": "required"
+      },
+      "categories": [
+        {
+          "typeId": "category",
+          "id": "required"
+        }
+      ],
+      "slug": {
+        "en": "my-new-product-slug",
+        "de": "mein-neuer-produkt-slug"
+      },
+      "variants": [
+        {
+          "id": 2,
+          "sku": "cvbcvbcvb",
+          "prices": [],
+          "images": [],
+          "attributes": [
+            {
+              "name": "productDescriptionShort",
+              "value": {
+                "de": "required",
+                "en": "required",
+                "fr": "required",
+                "it": "required",
+                "pl": "required",
+                "nl": "required"
+              }
+            },
+            {
+              "name": "nameExtended",
+              "value": {
+                "de": "required",
+                "en": "required",
+                "fr": "required",
+                "it": "required",
+                "pl": "required",
+                "nl": "required"
+              }
+            },
+            {
+              "name": "requiredVehicleRoleForPurchase",
+              "value": {
+                "label": {
+                  "de": "required",
+                  "en": "required",
+                  "fr": "required",
+                  "it": "required",
+                  "pl": "required",
+                  "nl": "required"
+                },
+                "key": "required"
+              }
+            },
+            {
+              "name": "imageURL",
+              "value": "required"
+            },
+            {
+              "name": "iconURL",
+              "value": "required"
+            },
+            {
+              "name": "licenceRuntime",
+              "value": {
+                "de": "required",
+                "en": "required",
+                "fr": "required",
+                "it": "required",
+                "pl": "required",
+                "nl": "required"
+              },
+              "key": "required"
+            },
+            {
+              "name": "purchaseOption",
+              "value": {
+                "de": "required",
+                "en": "required",
+                "fr": "required",
+                "it": "required",
+                "pl": "required",
+                "nl": "required"
+              },
+              "key": "required"
+            },
+            {
+              "name": "warningPeriod",
+              "value": "required"
+            },
+            {
+              "name": "licenceType",
+              "value": {
+                "label": "required",
+                "key": "required"
+              }
+            },
+            {
+              "name": "provider",
+              "value": {
+                "de": "required",
+                "en": "required",
+                "fr": "required",
+                "it": "required",
+                "pl": "required",
+                "nl": "required"
+              },
+              "key": "required"
+            },
+            {
+              "name": "licenseProfileId_Master",
+              "value": "required"
+            },
+            {
+              "name": "licenseProfileId_Package",
+              "value": "required"
+            },
+            {
+              "name": "serviceId",
+              "value": "required"
+            },
+            {
+              "name": "variantName",
+              "value": "required"
+            },
+            {
+              "name": "productClass",
+              "value": {
+                "label": "required",
+                "key": "required"
+              }
+            }
+          ],
+          "assets": []
+        }
+      ]
+    }
+  },
+  "key": "complete",
+  "taxCategory": {
+    "typeId": "tax-category",
+    "id": "3aba2226-0693-43b5-bc64-7a6abeb30e6e"
+  }
+}

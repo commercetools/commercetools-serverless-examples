@@ -1,0 +1,2720 @@
+{
+  "id": "4d083834-b158-494d-81fb-cd9e15fee21f",
+  "version": 51,
+  "productType": {
+    "typeId": "product-type",
+    "id": "e272de52-aa13-49cd-8eef-b92b331fea95"
+  },
+  "catalogs": [],
+  "masterData": {
+    "current": {
+      "name": {
+        "fr": "La navigation",
+        "it": "Navigazione",
+        "en": "Navigation",
+        "de": "Navigation",
+        "nl": "#NL Navigation",
+        "pl": "#PL Navigation"
+      },
+      "description": {
+        "fr": "Audi prend en charge le conducteur avec une large gamme de systèmes d'assistance - de Active Lane Assist aux assistants d'urgence. D'autres fonctionnalités sont incluses. Ils fournissent plus de sécurité, de confort et d'efficacité, ouvrant la voie à une conduite pilotée.",
+        "it": "Audi supporta il guidatore con una vasta gamma di sistemi di assistenza: da Active Lane Assist agli assistenti di emergenza. Ulteriori caratteristiche sono incluse. Offrono maggiore sicurezza, comfort e efficienza, aprendo la strada alla guida pilota.",
+        "en": "Audi supports the driver with a wide range of assistance systems - from Active Lane Assist to emergency assistants. Further features are included. They provide more safety, comfort and efficiency, paving the way for piloted driving.",
+        "de": "Audi unterstützt den Fahrer mit einem breiten Angebot an Assistenzsystemen – vom Active Lane Assist bis hin zum Notfallassistent. Weiter Features sind enthalten. Sie sorgen für mehr Sicherheit, Komfort sowie Effizienz und ebnen den Weg für das pilotierte Fahren.",
+        "nl": "#NL Audi unterstützt den Fahrer mit einem breiten Angebot an Assistenzsystemen – vom Active Lane Assist bis hin zum Notfallassistent. Weiter Features sind enthalten. Sie sorgen für mehr Sicherheit, Komfort sowie Effizienz und ebnen den Weg für das pilotierte Fahren.",
+        "pl": "#PL Audi unterstützt den Fahrer mit einem breiten Angebot an Assistenzsystemen – vom Active Lane Assist bis hin zum Notfallassistent. Weiter Features sind enthalten. Sie sorgen für mehr Sicherheit, Komfort sowie Effizienz und ebnen den Weg für das pilotierte Fahren."
+      },
+      "categories": [
+        {
+          "typeId": "category",
+          "id": "897ec65d-1e68-45a0-9ffa-a62509ccfc9a"
+        }
+      ],
+      "categoryOrderHints": {},
+      "slug": {
+        "fr": "navigation",
+        "it": "navigation",
+        "de": "navigation",
+        "en": "navigation"
+      },
+      "metaDescription": {
+        "de": "- Navigationssystem* mit hochauflösendem 8,3-Zoll-Farbdisplay\n- Kartenupdate online**: Download aktueller Navigationsdaten \n- 3D-Kartendarstellung mit Anzeige vieler Sehenswürdigkeiten und Stadtmodelle\n- Verkehrsinformationen online: Navigation mit Berücksichtigung des aktuellen Verkehrsaufkommens durch Echtzeitinformationen\n- MMI Suche: Freitextsuche mit intelligenten Zielvorschlägen bereits während der Eingabe\n- MMI touch zur schnellen, intuitiven Bedienung, z.B. Zieleingabe per Handschrifterkennung sowie freies Bewegen und Zoomen in der Karte\n- einfache Bedienung des Infotainments über natürliche Sprache***\n- Fahrerinformationssystem mit 7-Zoll-Farbdisplay inkl. Anzeige der Navigationskarte\n- detaillierte Routeninformationen: Kartenvorschau, Wahl aus -\n Alternativrouten, POIs, Spurempfehlungen, Autobahnausfahrten, Kreuzungsdetailkarten u.v.m.\n- komfortable Anbindung Ihres Fahrzeugs an das Internet zur Nutzung von Audi connect über ein integriertes Datenmodul mit LTE-/UMTS-Unterstützung. SIM-Kartenleser für Daten-SIM in der Blende der MMI Navigation plus\n- WLAN-Hotspot zur Anbindung mobiler Endgeräte an das Internet sowie zur Nutzung der MMI connect App****\n- 3 Jahre Nutzung von Audi connect Diensten ab Fahrzeugauslieferung (zu Verlängerungsmöglichkeiten informiert Ihr Audi Partner), wie z.B. Verkehrsinformationen online, Navigation mit Google Earth™***** und Google Street View™*****, Parkplatzinformationen, Kraftstoffpreise u.a.\n- Nutzung von Navigationsdaten für vorausschauendes und effizientes Fahren, z.B. Tempolimits und Steigungen\n- myAudi Sonderziele: individuelle Point-of-Interest- (POI-) Listen über das myAudi-Portal ins Fahrzeug importieren\n- Landesinformationen: Anzeige von länderspezifischen Informationen, z.B. zu geltenden Tempolimits, Vignettenpflicht etc. beim Grenzübertritt\n- E-Mails und Mitteilungen vom Mobiltelefon anzeigen und vorlesen lassen******\n- MMI Radio plus\n- 10 GB Flashspeicher für Musik, zwei SDXC-Speicherkartenleser, DVD-Laufwerk (MP3, WMA, AAC, MPEG-4), AUX-IN\n- Bluetooth-Schnittstelle (Freisprechen und Audio-Streaming)\n- USB-Schnittstelle mit Ladefunktion\n\n* Navigationsdaten für unterstützte Länder auf integriertem Speicher (MMI Navigation plus) bzw. SD-Karte (MMI Navigation) verfügbar. Nähere Informationen erhalten Sie bei Ihrem Audi Partner.\n** Die ausgelieferte Kartenversion kann mit den ersten fünf im halbjährlichen Rhythmus erscheinenden Updates aktualisiert werden. Die aktuellen Navigationsdaten werden auf der myAudi-Plattform unter www.audi.com/myAudi zum Download bereitgestellt und können via SD-Karte im Fahrzeug installiert werden. In Verbindung mit Audi connect können die Karten auch direkt im Fahrzeug heruntergeladen und aktualisiert werden. Darüber hinaus ist es möglich, die neuen Navigationsdaten bei einem Audi Partner installieren zu lassen, wobei zusätzliche Kosten entstehen.\n*** Verfügbar in ausgewählten Sprachen. Voraussetzung: Mobiltelefon verfügt über Bluetooth-Profil MAP (Message Access Profile). Informationen über kompatible Mobiltelefone erhalten Sie bei Ihrem Audi Partner oder unter www.audi.com/bluetooth.\n**** Die Verfügbarkeit der Audi MMI connect App ist länderabhängig. Kompatibel ab Apple iOS 7.0 und Android 4.1. Vorherige Registrierung auf myAudi erforderlich. Aktive WLAN-Verbindung zwischen Smartphone und Audi MMI für Online Media Streaming notwendig.\n***** Google und das Google-Logo sind eingetragene Marken von Google Inc.\n****** Verfügbar in Englisch (UK, US), Deutsch, Französisch, Spanisch, Italienisch, Englisch, Chinesisch.",
+        "en": "In addition to standard MMI Radio Plus, includes the following:\n● Integrated navigation with 3D map display\n● Detailed route information: map preview, choice of alternative routes, POIs, lane recommendations, motorway exits, detailed junction maps and more\n● Dynamic route guidance with TMCpro (in conjunction with Audi connect Infotainment Services: traffic information online)\n● MMI search: free text search with intelligent suggestions provided during entry\n● Natural voice recognition\n● 2xSDXC memory card readers"
+      },
+      "masterVariant": {
+        "id": 1,
+        "sku": "NAV2D",
+        "key": "test_0006 123",
+        "prices": [
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2500,
+              "fractionDigits": 2
+            },
+            "id": "c0353a71-667b-4d7a-9619-42b733860d06",
+            "country": "DE",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "CHF",
+              "centAmount": 2200,
+              "fractionDigits": 2
+            },
+            "id": "fcce5a35-1918-4e8d-81ab-a2311a177931",
+            "country": "CH",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "CAD",
+              "centAmount": 2200,
+              "fractionDigits": 2
+            },
+            "id": "4dbac12c-4c15-40de-835d-f6ce49812395",
+            "country": "CA",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2500,
+              "fractionDigits": 2
+            },
+            "id": "eb52f6b0-220f-4691-9832-6e0d2e8112cf",
+            "country": "FR",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2500,
+              "fractionDigits": 2
+            },
+            "id": "17a33bea-dc8d-4026-8bc9-1a14ff15d739",
+            "country": "FR",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "CAD",
+              "centAmount": 2200,
+              "fractionDigits": 2
+            },
+            "id": "2edb07be-4b6d-4954-8f73-60daacaa3d0e",
+            "country": "CA",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "CHF",
+              "centAmount": 2200,
+              "fractionDigits": 2
+            },
+            "id": "61410594-2638-4b7b-af76-aa767235a9a1",
+            "country": "CH",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2500,
+              "fractionDigits": 2
+            },
+            "id": "9b5f78b1-c31f-45a6-b2a5-bc276ed5ca72",
+            "country": "DE",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "PLN",
+              "centAmount": 7900,
+              "fractionDigits": 2
+            },
+            "id": "6836be49-826e-4422-a59b-122255f39919",
+            "country": "PL",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "PLN",
+              "centAmount": 6900,
+              "fractionDigits": 2
+            },
+            "id": "2208e237-f68c-426b-97a0-3460cae1f2a1",
+            "country": "PL",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2900,
+              "fractionDigits": 2
+            },
+            "id": "17956cfb-eaba-4864-9f83-f41df5cb0e16",
+            "country": "IT",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2600,
+              "fractionDigits": 2
+            },
+            "id": "649ed807-fd7d-45ef-9e6c-f1398f4f9607",
+            "country": "IT",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2900,
+              "fractionDigits": 2
+            },
+            "id": "ff56fcf3-06ed-4d72-bde2-afd6deb5d752",
+            "country": "NL",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2600,
+              "fractionDigits": 2
+            },
+            "id": "741fd1f0-c56e-4a1f-9cff-2c2ab6e9537f",
+            "country": "NL",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "GBP",
+              "centAmount": 3400,
+              "fractionDigits": 2
+            },
+            "id": "f546702d-3547-4b48-a851-ac5d377e5b8f",
+            "country": "GB",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "GBP",
+              "centAmount": 3100,
+              "fractionDigits": 2
+            },
+            "id": "2c8b5a82-e13e-4f85-b27c-663ff4cd7d9c",
+            "country": "GB",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          }
+        ],
+        "images": [
+          {
+            "url": "https://8bdc49b7906521fc8007-7de527828c552996336500d912383134.ssl.cf3.rackcdn.com/A171163_full-X1S_4xlk.jpg",
+            "dimensions": {
+              "w": 0,
+              "h": 0
+            }
+          }
+        ],
+        "attributes": [
+          {
+            "name": "productDescriptionShort",
+            "value": {
+              "pl": "#PL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+              "nl": "#NL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+              "de": "MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+              "en": "The fast and convenient operating concept of the navigation system with MMI controls allows the driver to drive safely and relaxed.",
+              "it": "Audi supporta il driver con una vasta gamma di sistemi di assistenza",
+              "fr": "Audi prend en charge le conducteur avec une large gamme de systèmes d'assistance"
+            }
+          },
+          {
+            "name": "nameExtended",
+            "value": {
+              "pl": "MMI® Navigation plus mit MMI touch",
+              "nl": "MMI® Navigation plus mit MMI touch",
+              "de": "MMI® Navigation plus mit MMI touch",
+              "en": "MMI® Navigation plus mit MMI touch",
+              "it": "MMI® Navigation plus mit MMI touch",
+              "fr": "MMI® Navigation plus mit MMI touch"
+            }
+          },
+          {
+            "name": "requiredVehicleRoleForPurchase",
+            "value": {
+              "label": {
+                "en": "Guest User",
+                "de": "Gastnutzer",
+                "fr": "Guest User",
+                "it": "Guest User"
+              },
+              "key": "requiredVehicleRoleForPurchase_gu"
+            }
+          },
+          {
+            "name": "imageURL",
+            "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+          },
+          {
+            "name": "iconURL",
+            "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+          },
+          {
+            "name": "legalText",
+            "value": {
+              "pl": "#PL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+              "nl": "#NL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+              "de": "Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+              "en": "The systems are activated in the vehicle MMI. The systems work only within system limits and support the driver. Responsibility and necessary attention in road traffic remain with the driver.",
+              "it": "I sistemi sono attivati ​​nel veicolo MMI. I sistemi funzionano solo entro limiti di sistema e supportano il driver. La responsabilità e l'attenzione necessaria nel traffico stradale restano con il conducente.",
+              "fr": "Les systèmes sont activés dans le véhicule MMI. Les systèmes fonctionnent uniquement dans les limites du système et supportent le pilote. La responsabilité et l'attention nécessaire dans le trafic routier restent avec le conducteur."
+            }
+          },
+          {
+            "name": "licenceRuntime",
+            "value": {
+              "label": {
+                "it": "2 days",
+                "fr": "2 days",
+                "de": "2 days",
+                "en": "2 days"
+              },
+              "key": "licenceRuntime_P2D"
+            }
+          },
+          {
+            "name": "purchaseOption",
+            "value": {
+              "label": {
+                "en": "Single",
+                "de": "Einzelkauf",
+                "fr": "Single",
+                "it": "Single"
+              },
+              "key": "purchaseOption_single"
+            }
+          },
+          {
+            "name": "InCarProductType",
+            "value": {
+              "label": "Product",
+              "key": "productType_product"
+            }
+          },
+          {
+            "name": "legalDocuments",
+            "value": [
+              "acp.documents.tos.54797",
+              "acp.documents.ct.54797",
+              "acp.documents.third-party.54797",
+              "acp.documents.privacy-policy.54797"
+            ]
+          },
+          {
+            "name": "warningPeriod",
+            "value": 2
+          },
+          {
+            "name": "licenseType",
+            "value": {
+              "label": "regular",
+              "key": "licenseType_regular"
+            }
+          },
+          {
+            "name": "productNotes",
+            "value": [
+              {
+                "label": {
+                  "it": "Requires ignition cycle after purchase",
+                  "fr": "Requires ignition cycle after purchase",
+                  "de": "Requires ignition cycle after purchase",
+                  "en": "Requires ignition cycle after purchase"
+                },
+                "key": "IGNITIONCYCLEAFTERPURCHASE"
+              }
+            ]
+          },
+          {
+            "name": "provider",
+            "value": {
+              "label": {
+                "en": "VW",
+                "de": "VW",
+                "fr": "VW",
+                "it": "VW"
+              },
+              "key": "VW"
+            }
+          },
+          {
+            "name": "mainUnitCategory",
+            "value": [
+              {
+                "label": {
+                  "it": "NAVIGATION",
+                  "fr": "NAVIGATION",
+                  "de": "NAVIGATION",
+                  "en": "NAVIGATION"
+                },
+                "key": "NAVIGATION"
+              }
+            ]
+          },
+          {
+            "name": "licenseProfileId_Master",
+            "value": "LPBUMasterGlobal00000914"
+          },
+          {
+            "name": "licenseProfileId_Package",
+            "value": "LPPackageGlobal00001031"
+          },
+          {
+            "name": "serviceId",
+            "value": "navigation_v1"
+          },
+          {
+            "name": "isTeaser",
+            "value": false
+          }
+        ],
+        "assets": [],
+        "availability": {
+          "channels": {
+            "aeea325f-766e-451b-bbda-c4b8e5cb566c": {
+              "isOnStock": true,
+              "availableQuantity": 1
+            },
+            "d3ca2712-f808-4b51-a24d-e82a37aae9d2": {
+              "isOnStock": true,
+              "availableQuantity": 1
+            }
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": 2,
+          "sku": "NAV1M",
+          "key": "test_0006 456",
+          "prices": [
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 7000,
+                "fractionDigits": 2
+              },
+              "id": "6d930656-3268-47c7-ab09-d2b3fce45d2e",
+              "country": "FR",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 7000,
+                "fractionDigits": 2
+              },
+              "id": "c308f022-7b0d-418a-bca5-8964d551eab1",
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 7000,
+                "fractionDigits": 2
+              },
+              "id": "c59e27e6-42bc-4d14-a045-27601cbd9e99",
+              "country": "FR",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 7000,
+                "fractionDigits": 2
+              },
+              "id": "1ba1dfa6-e798-45ce-9707-7cb8acdc3368",
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CAD",
+                "centAmount": 6000,
+                "fractionDigits": 2
+              },
+              "id": "d4a9dbff-3d64-4b37-ba7f-6808647e2c48",
+              "country": "CA",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CHF",
+                "centAmount": 5500,
+                "fractionDigits": 2
+              },
+              "id": "757897f4-9719-4a9d-a794-0f59db50eea8",
+              "country": "CH",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CHF",
+                "centAmount": 5500,
+                "fractionDigits": 2
+              },
+              "id": "4d272fd9-88f1-4907-b897-43cda3304a4b",
+              "country": "CH",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CAD",
+                "centAmount": 6000,
+                "fractionDigits": 2
+              },
+              "id": "0eae66dc-6f71-46e5-a1a7-35ce60c0d60f",
+              "country": "CA",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            }
+          ],
+          "images": [
+            {
+              "url": "http://mediaservice.audi.com/media/cdb/data/ef934d61-d754-4986-8b14-97a827ba959a.jpg",
+              "dimensions": {
+                "w": 0,
+                "h": 0
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "productDescriptionShort",
+              "value": {
+                "pl": "#PL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "nl": "#NL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "de": "MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "en": "The fast and convenient operating concept of the navigation system with MMI controls allows the driver to drive safely and relaxed.",
+                "it": "Audi supporta il driver con una vasta gamma di sistemi di assistenza",
+                "fr": "Audi prend en charge le conducteur avec une large gamme de systèmes d'assistance"
+              }
+            },
+            {
+              "name": "nameExtended",
+              "value": {
+                "pl": "MMI® Navigation plus mit MMI touch",
+                "nl": "MMI® Navigation plus mit MMI touch",
+                "de": "MMI® Navigation plus mit MMI touch",
+                "en": "MMI® Navigation plus mit MMI touch",
+                "it": "MMI® Navigation plus mit MMI touch",
+                "fr": "MMI® Navigation plus mit MMI touch"
+              }
+            },
+            {
+              "name": "requiredVehicleRoleForPurchase",
+              "value": {
+                "label": {
+                  "en": "Guest User",
+                  "de": "Gastnutzer",
+                  "fr": "Guest User",
+                  "it": "Guest User"
+                },
+                "key": "requiredVehicleRoleForPurchase_gu"
+              }
+            },
+            {
+              "name": "imageURL",
+              "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+            },
+            {
+              "name": "iconURL",
+              "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+            },
+            {
+              "name": "legalText",
+              "value": {
+                "pl": "#PL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "nl": "#NL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "de": "Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "en": "The systems are activated in the vehicle MMI. The systems work only within system limits and support the driver. Responsibility and necessary attention in road traffic remain with the driver.",
+                "it": "I sistemi sono attivati ​​nel veicolo MMI. I sistemi funzionano solo entro limiti di sistema e supportano il driver. La responsabilità e l'attenzione necessaria nel traffico stradale restano con il conducente.",
+                "fr": "Les systèmes sont activés dans le véhicule MMI. Les systèmes fonctionnent uniquement dans les limites du système et supportent le pilote. La responsabilité et l'attention nécessaire dans le trafic routier restent avec le conducteur."
+              }
+            },
+            {
+              "name": "licenceRuntime",
+              "value": {
+                "label": {
+                  "it": "1 month",
+                  "fr": "1 month",
+                  "de": "1 Monat",
+                  "en": "1 month"
+                },
+                "key": "licenceRuntime_P1M"
+              }
+            },
+            {
+              "name": "purchaseOption",
+              "value": {
+                "label": {
+                  "en": "Single",
+                  "de": "Einzelkauf",
+                  "fr": "Single",
+                  "it": "Single"
+                },
+                "key": "purchaseOption_single"
+              }
+            },
+            {
+              "name": "InCarProductType",
+              "value": {
+                "label": "Product",
+                "key": "productType_product"
+              }
+            },
+            {
+              "name": "legalDocuments",
+              "value": [
+                "acp.documents.tos.54797",
+                "acp.documents.ct.54797",
+                "acp.documents.third-party.54797",
+                "acp.documents.privacy-policy.54797"
+              ]
+            },
+            {
+              "name": "warningPeriod",
+              "value": 30
+            },
+            {
+              "name": "licenseType",
+              "value": {
+                "label": "regular",
+                "key": "licenseType_regular"
+              }
+            },
+            {
+              "name": "productNotes",
+              "value": [
+                {
+                  "label": {
+                    "it": "Requires ignition cycle after purchase",
+                    "fr": "Requires ignition cycle after purchase",
+                    "de": "Requires ignition cycle after purchase",
+                    "en": "Requires ignition cycle after purchase"
+                  },
+                  "key": "IGNITIONCYCLEAFTERPURCHASE"
+                }
+              ]
+            },
+            {
+              "name": "provider",
+              "value": {
+                "label": {
+                  "en": "VW",
+                  "de": "VW",
+                  "fr": "VW",
+                  "it": "VW"
+                },
+                "key": "VW"
+              }
+            },
+            {
+              "name": "mainUnitCategory",
+              "value": [
+                {
+                  "label": {
+                    "it": "NAVIGATION",
+                    "fr": "NAVIGATION",
+                    "de": "NAVIGATION",
+                    "en": "NAVIGATION"
+                  },
+                  "key": "NAVIGATION"
+                }
+              ]
+            },
+            {
+              "name": "licenseProfileId_Master",
+              "value": "LPBUMasterGlobal00000914"
+            },
+            {
+              "name": "licenseProfileId_Package",
+              "value": "LPPackageGlobal00001032"
+            },
+            {
+              "name": "serviceId",
+              "value": "navigation_v1"
+            },
+            {
+              "name": "isTeaser",
+              "value": false
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "channels": {
+              "d3ca2712-f808-4b51-a24d-e82a37aae9d2": {
+                "isOnStock": true,
+                "availableQuantity": 1
+              },
+              "aeea325f-766e-451b-bbda-c4b8e5cb566c": {
+                "isOnStock": true,
+                "availableQuantity": 1
+              }
+            }
+          }
+        },
+        {
+          "id": 3,
+          "sku": "NAV12M",
+          "key": "test_0006 789",
+          "prices": [
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CAD",
+                "centAmount": 45000,
+                "fractionDigits": 2
+              },
+              "id": "8c6030e5-d5cd-4d67-a30e-8911b3e890bb",
+              "country": "CA",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CHF",
+                "centAmount": 38900,
+                "fractionDigits": 2
+              },
+              "id": "f2d4a153-d284-4fa3-b03a-8bf6033e35ee",
+              "country": "CH",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CAD",
+                "centAmount": 45000,
+                "fractionDigits": 2
+              },
+              "id": "c0c24c88-a29a-4dea-941d-3eacec570cb3",
+              "country": "CA",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 50000,
+                "fractionDigits": 2
+              },
+              "id": "6ca8ee78-150f-4687-aa35-4f2f42fb6d6a",
+              "country": "FR",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 50000,
+                "fractionDigits": 2
+              },
+              "id": "90f948ad-798b-4ab5-b189-97faa12c900a",
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CHF",
+                "centAmount": 38900,
+                "fractionDigits": 2
+              },
+              "id": "913e81a2-712d-46ed-8e03-8439d9cfc01f",
+              "country": "CH",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 50000,
+                "fractionDigits": 2
+              },
+              "id": "5617cb96-651b-41c2-9f72-413267fdb004",
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 50000,
+                "fractionDigits": 2
+              },
+              "id": "21ea2a95-4583-4752-873a-cd797c85ea19",
+              "country": "FR",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            }
+          ],
+          "images": [
+            {
+              "url": "http://mediaservice.audi.com/media/cdb/data/ef934d61-d754-4986-8b14-97a827ba959a.jpg",
+              "dimensions": {
+                "w": 0,
+                "h": 0
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "productDescriptionShort",
+              "value": {
+                "pl": "#PL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "nl": "#NL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "de": "MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "en": "The fast and convenient operating concept of the navigation system with MMI controls allows the driver to drive safely and relaxed.",
+                "it": "Audi supporta il driver con una vasta gamma di sistemi di assistenza",
+                "fr": "Audi prend en charge le conducteur avec une large gamme de systèmes d'assistance"
+              }
+            },
+            {
+              "name": "nameExtended",
+              "value": {
+                "pl": "MMI® Navigation plus mit MMI touch",
+                "nl": "MMI® Navigation plus mit MMI touch",
+                "de": "MMI® Navigation plus mit MMI touch",
+                "en": "MMI® Navigation plus mit MMI touch",
+                "it": "MMI® Navigation plus mit MMI touch",
+                "fr": "MMI® Navigation plus mit MMI touch"
+              }
+            },
+            {
+              "name": "requiredVehicleRoleForPurchase",
+              "value": {
+                "label": {
+                  "en": "Guest User",
+                  "de": "Gastnutzer",
+                  "fr": "Guest User",
+                  "it": "Guest User"
+                },
+                "key": "requiredVehicleRoleForPurchase_gu"
+              }
+            },
+            {
+              "name": "imageURL",
+              "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+            },
+            {
+              "name": "iconURL",
+              "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+            },
+            {
+              "name": "legalText",
+              "value": {
+                "pl": "#PL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "nl": "#NL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "de": "Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "en": "The systems are activated in the vehicle MMI. The systems work only within system limits and support the driver. Responsibility and necessary attention in road traffic remain with the driver.",
+                "it": "I sistemi sono attivati ​​nel veicolo MMI. I sistemi funzionano solo entro limiti di sistema e supportano il driver. La responsabilità e l'attenzione necessaria nel traffico stradale restano con il conducente.",
+                "fr": "Les systèmes sont activés dans le véhicule MMI. Les systèmes fonctionnent uniquement dans les limites du système et supportent le pilote. La responsabilité et l'attention nécessaire dans le trafic routier restent avec le conducteur."
+              }
+            },
+            {
+              "name": "licenceRuntime",
+              "value": {
+                "label": {
+                  "it": "12 months",
+                  "fr": "12 months",
+                  "de": "12 Monate",
+                  "en": "12 months"
+                },
+                "key": "licenceRuntime_P12M"
+              }
+            },
+            {
+              "name": "purchaseOption",
+              "value": {
+                "label": {
+                  "en": "Single",
+                  "de": "Einzelkauf",
+                  "fr": "Single",
+                  "it": "Single"
+                },
+                "key": "purchaseOption_single"
+              }
+            },
+            {
+              "name": "InCarProductType",
+              "value": {
+                "label": "Product",
+                "key": "productType_product"
+              }
+            },
+            {
+              "name": "legalDocuments",
+              "value": [
+                "acp.documents.tos.54797",
+                "acp.documents.ct.54797",
+                "acp.documents.third-party.54797",
+                "acp.documents.privacy-policy.54797"
+              ]
+            },
+            {
+              "name": "warningPeriod",
+              "value": 365
+            },
+            {
+              "name": "licenseType",
+              "value": {
+                "label": "regular",
+                "key": "licenseType_regular"
+              }
+            },
+            {
+              "name": "productNotes",
+              "value": [
+                {
+                  "label": {
+                    "it": "Requires ignition cycle after purchase",
+                    "fr": "Requires ignition cycle after purchase",
+                    "de": "Requires ignition cycle after purchase",
+                    "en": "Requires ignition cycle after purchase"
+                  },
+                  "key": "IGNITIONCYCLEAFTERPURCHASE"
+                }
+              ]
+            },
+            {
+              "name": "provider",
+              "value": {
+                "label": {
+                  "en": "VW",
+                  "de": "VW",
+                  "fr": "VW",
+                  "it": "VW"
+                },
+                "key": "VW"
+              }
+            },
+            {
+              "name": "mainUnitCategory",
+              "value": [
+                {
+                  "label": {
+                    "it": "NAVIGATION",
+                    "fr": "NAVIGATION",
+                    "de": "NAVIGATION",
+                    "en": "NAVIGATION"
+                  },
+                  "key": "NAVIGATION"
+                }
+              ]
+            },
+            {
+              "name": "licenseProfileId_Master",
+              "value": "LPBUMasterGlobal00000914"
+            },
+            {
+              "name": "licenseProfileId_Package",
+              "value": "LPPackageGlobal00001033"
+            },
+            {
+              "name": "serviceId",
+              "value": "navigation_v1"
+            },
+            {
+              "name": "isTeaser",
+              "value": false
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "channels": {
+              "aeea325f-766e-451b-bbda-c4b8e5cb566c": {
+                "isOnStock": true,
+                "availableQuantity": 1
+              },
+              "d3ca2712-f808-4b51-a24d-e82a37aae9d2": {
+                "isOnStock": true,
+                "availableQuantity": 1
+              }
+            }
+          }
+        },
+        {
+          "id": 4,
+          "sku": "NAVLT",
+          "key": "test_0006 999",
+          "prices": [
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CAD",
+                "centAmount": 120000,
+                "fractionDigits": 2
+              },
+              "id": "5f638dea-5a6d-47ba-b4ac-ccda0da2150e",
+              "country": "CA",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 150000,
+                "fractionDigits": 2
+              },
+              "id": "4065765d-d14c-4ee5-af06-7b0b4e974dc9",
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 150000,
+                "fractionDigits": 2
+              },
+              "id": "e543fe84-c461-456f-b2bb-2ae2d7e4fc9f",
+              "country": "FR",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CHF",
+                "centAmount": 135000,
+                "fractionDigits": 2
+              },
+              "id": "d6008046-b8de-418e-9de2-d8d8faa5255d",
+              "country": "CH",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 150000,
+                "fractionDigits": 2
+              },
+              "id": "f57ee335-ab87-4176-abcc-d779b61cba87",
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 150000,
+                "fractionDigits": 2
+              },
+              "id": "2d13ada0-6239-454a-acac-442c08dd681a",
+              "country": "FR",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CAD",
+                "centAmount": 120000,
+                "fractionDigits": 2
+              },
+              "id": "296e5eca-a894-482c-86c6-413bb86ed73e",
+              "country": "CA",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CHF",
+                "centAmount": 135000,
+                "fractionDigits": 2
+              },
+              "id": "d3061702-3864-44c1-9569-4fdbe3f46800",
+              "country": "CH",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            }
+          ],
+          "images": [
+            {
+              "url": "http://mediaservice.audi.com/media/cdb/data/ef934d61-d754-4986-8b14-97a827ba959a.jpg",
+              "dimensions": {
+                "w": 0,
+                "h": 0
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "productDescriptionShort",
+              "value": {
+                "pl": "#PL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "nl": "#NL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "de": "MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "en": "The fast and convenient operating concept of the navigation system with MMI controls allows the driver to drive safely and relaxed.",
+                "it": "Audi supporta il driver con una vasta gamma di sistemi di assistenza",
+                "fr": "Audi prend en charge le conducteur avec une large gamme de systèmes d'assistance"
+              }
+            },
+            {
+              "name": "nameExtended",
+              "value": {
+                "pl": "MMI® Navigation plus mit MMI touch",
+                "nl": "MMI® Navigation plus mit MMI touch",
+                "de": "MMI® Navigation plus mit MMI touch",
+                "en": "MMI® Navigation plus mit MMI touch",
+                "it": "MMI® Navigation plus mit MMI touch",
+                "fr": "MMI® Navigation plus mit MMI touch"
+              }
+            },
+            {
+              "name": "requiredVehicleRoleForPurchase",
+              "value": {
+                "label": {
+                  "en": "Guest User",
+                  "de": "Gastnutzer",
+                  "fr": "Guest User",
+                  "it": "Guest User"
+                },
+                "key": "requiredVehicleRoleForPurchase_gu"
+              }
+            },
+            {
+              "name": "imageURL",
+              "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+            },
+            {
+              "name": "iconURL",
+              "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+            },
+            {
+              "name": "legalText",
+              "value": {
+                "pl": "#PL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "nl": "#NL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "de": "Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "en": "The systems are activated in the vehicle MMI. The systems work only within system limits and support the driver. Responsibility and necessary attention in road traffic remain with the driver.",
+                "it": "I sistemi sono attivati ​​nel veicolo MMI. I sistemi funzionano solo entro limiti di sistema e supportano il driver. La responsabilità e l'attenzione necessaria nel traffico stradale restano con il conducente.",
+                "fr": "Les systèmes sont activés dans le véhicule MMI. Les systèmes fonctionnent uniquement dans les limites du système et supportent le pilote. La responsabilité et l'attention nécessaire dans le trafic routier restent avec le conducteur."
+              }
+            },
+            {
+              "name": "licenceRuntime",
+              "value": {
+                "label": {
+                  "it": "Lifetime",
+                  "fr": "Lifetime",
+                  "de": "Lebenszeit",
+                  "en": "Lifetime"
+                },
+                "key": "licenceRuntime_lifetime"
+              }
+            },
+            {
+              "name": "purchaseOption",
+              "value": {
+                "label": {
+                  "en": "Single",
+                  "de": "Einzelkauf",
+                  "fr": "Single",
+                  "it": "Single"
+                },
+                "key": "purchaseOption_single"
+              }
+            },
+            {
+              "name": "InCarProductType",
+              "value": {
+                "label": "Product",
+                "key": "productType_product"
+              }
+            },
+            {
+              "name": "legalDocuments",
+              "value": [
+                "acp.documents.tos.54797",
+                "acp.documents.ct.54797",
+                "acp.documents.third-party.54797",
+                "acp.documents.privacy-policy.54797"
+              ]
+            },
+            {
+              "name": "warningPeriod",
+              "value": 0
+            },
+            {
+              "name": "licenseType",
+              "value": {
+                "label": "regular",
+                "key": "licenseType_regular"
+              }
+            },
+            {
+              "name": "productNotes",
+              "value": [
+                {
+                  "label": {
+                    "it": "Requires ignition cycle after purchase",
+                    "fr": "Requires ignition cycle after purchase",
+                    "de": "Requires ignition cycle after purchase",
+                    "en": "Requires ignition cycle after purchase"
+                  },
+                  "key": "IGNITIONCYCLEAFTERPURCHASE"
+                }
+              ]
+            },
+            {
+              "name": "provider",
+              "value": {
+                "label": {
+                  "en": "VW",
+                  "de": "VW",
+                  "fr": "VW",
+                  "it": "VW"
+                },
+                "key": "VW"
+              }
+            },
+            {
+              "name": "mainUnitCategory",
+              "value": [
+                {
+                  "label": {
+                    "it": "NAVIGATION",
+                    "fr": "NAVIGATION",
+                    "de": "NAVIGATION",
+                    "en": "NAVIGATION"
+                  },
+                  "key": "NAVIGATION"
+                }
+              ]
+            },
+            {
+              "name": "licenseProfileId_Master",
+              "value": "LPBUMasterGlobal00000914"
+            },
+            {
+              "name": "licenseProfileId_Package",
+              "value": "LPPackageGlobal00001034"
+            },
+            {
+              "name": "serviceId",
+              "value": "navigation_v1"
+            },
+            {
+              "name": "isTeaser",
+              "value": false
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "channels": {
+              "d3ca2712-f808-4b51-a24d-e82a37aae9d2": {
+                "isOnStock": true,
+                "availableQuantity": 1
+              }
+            }
+          }
+        }
+      ],
+      "searchKeywords": {}
+    },
+    "staged": {
+      "name": {
+        "fr": "La navigation"
+      },
+      "description": {
+        "fr": "Audi prend en charge le conducteur avec une large gamme de systèmes d'assistance - de Active Lane Assist aux assistants d'urgence. D'autres fonctionnalités sont incluses. Ils fournissent plus de sécurité, de confort et d'efficacité, ouvrant la voie à une conduite pilotée.",
+        "it": "Audi supporta il guidatore con una vasta gamma di sistemi di assistenza: da Active Lane Assist agli assistenti di emergenza. Ulteriori caratteristiche sono incluse. Offrono maggiore sicurezza, comfort e efficienza, aprendo la strada alla guida pilota.",
+        "en": "Audi supports the driver with a wide range of assistance systems - from Active Lane Assist to emergency assistants. Further features are included. They provide more safety, comfort and efficiency, paving the way for piloted driving.",
+        "de": "Audi unterstützt den Fahrer mit einem breiten Angebot an Assistenzsystemen – vom Active Lane Assist bis hin zum Notfallassistent. Weiter Features sind enthalten. Sie sorgen für mehr Sicherheit, Komfort sowie Effizienz und ebnen den Weg für das pilotierte Fahren.",
+        "nl": "#NL Audi unterstützt den Fahrer mit einem breiten Angebot an Assistenzsystemen – vom Active Lane Assist bis hin zum Notfallassistent. Weiter Features sind enthalten. Sie sorgen für mehr Sicherheit, Komfort sowie Effizienz und ebnen den Weg für das pilotierte Fahren.",
+        "pl": "#PL Audi unterstützt den Fahrer mit einem breiten Angebot an Assistenzsystemen – vom Active Lane Assist bis hin zum Notfallassistent. Weiter Features sind enthalten. Sie sorgen für mehr Sicherheit, Komfort sowie Effizienz und ebnen den Weg für das pilotierte Fahren."
+      },
+      "categories": [
+        {
+          "typeId": "category",
+          "id": "897ec65d-1e68-45a0-9ffa-a62509ccfc9a"
+        }
+      ],
+      "categoryOrderHints": {},
+      "slug": {
+        "fr": "navigation",
+        "it": "navigation",
+        "de": "navigation",
+        "en": "navigation"
+      },
+      "metaDescription": {
+        "de": "- Navigationssystem* mit hochauflösendem 8,3-Zoll-Farbdisplay\n- Kartenupdate online**: Download aktueller Navigationsdaten \n- 3D-Kartendarstellung mit Anzeige vieler Sehenswürdigkeiten und Stadtmodelle\n- Verkehrsinformationen online: Navigation mit Berücksichtigung des aktuellen Verkehrsaufkommens durch Echtzeitinformationen\n- MMI Suche: Freitextsuche mit intelligenten Zielvorschlägen bereits während der Eingabe\n- MMI touch zur schnellen, intuitiven Bedienung, z.B. Zieleingabe per Handschrifterkennung sowie freies Bewegen und Zoomen in der Karte\n- einfache Bedienung des Infotainments über natürliche Sprache***\n- Fahrerinformationssystem mit 7-Zoll-Farbdisplay inkl. Anzeige der Navigationskarte\n- detaillierte Routeninformationen: Kartenvorschau, Wahl aus -\n Alternativrouten, POIs, Spurempfehlungen, Autobahnausfahrten, Kreuzungsdetailkarten u.v.m.\n- komfortable Anbindung Ihres Fahrzeugs an das Internet zur Nutzung von Audi connect über ein integriertes Datenmodul mit LTE-/UMTS-Unterstützung. SIM-Kartenleser für Daten-SIM in der Blende der MMI Navigation plus\n- WLAN-Hotspot zur Anbindung mobiler Endgeräte an das Internet sowie zur Nutzung der MMI connect App****\n- 3 Jahre Nutzung von Audi connect Diensten ab Fahrzeugauslieferung (zu Verlängerungsmöglichkeiten informiert Ihr Audi Partner), wie z.B. Verkehrsinformationen online, Navigation mit Google Earth™***** und Google Street View™*****, Parkplatzinformationen, Kraftstoffpreise u.a.\n- Nutzung von Navigationsdaten für vorausschauendes und effizientes Fahren, z.B. Tempolimits und Steigungen\n- myAudi Sonderziele: individuelle Point-of-Interest- (POI-) Listen über das myAudi-Portal ins Fahrzeug importieren\n- Landesinformationen: Anzeige von länderspezifischen Informationen, z.B. zu geltenden Tempolimits, Vignettenpflicht etc. beim Grenzübertritt\n- E-Mails und Mitteilungen vom Mobiltelefon anzeigen und vorlesen lassen******\n- MMI Radio plus\n- 10 GB Flashspeicher für Musik, zwei SDXC-Speicherkartenleser, DVD-Laufwerk (MP3, WMA, AAC, MPEG-4), AUX-IN\n- Bluetooth-Schnittstelle (Freisprechen und Audio-Streaming)\n- USB-Schnittstelle mit Ladefunktion\n\n* Navigationsdaten für unterstützte Länder auf integriertem Speicher (MMI Navigation plus) bzw. SD-Karte (MMI Navigation) verfügbar. Nähere Informationen erhalten Sie bei Ihrem Audi Partner.\n** Die ausgelieferte Kartenversion kann mit den ersten fünf im halbjährlichen Rhythmus erscheinenden Updates aktualisiert werden. Die aktuellen Navigationsdaten werden auf der myAudi-Plattform unter www.audi.com/myAudi zum Download bereitgestellt und können via SD-Karte im Fahrzeug installiert werden. In Verbindung mit Audi connect können die Karten auch direkt im Fahrzeug heruntergeladen und aktualisiert werden. Darüber hinaus ist es möglich, die neuen Navigationsdaten bei einem Audi Partner installieren zu lassen, wobei zusätzliche Kosten entstehen.\n*** Verfügbar in ausgewählten Sprachen. Voraussetzung: Mobiltelefon verfügt über Bluetooth-Profil MAP (Message Access Profile). Informationen über kompatible Mobiltelefone erhalten Sie bei Ihrem Audi Partner oder unter www.audi.com/bluetooth.\n**** Die Verfügbarkeit der Audi MMI connect App ist länderabhängig. Kompatibel ab Apple iOS 7.0 und Android 4.1. Vorherige Registrierung auf myAudi erforderlich. Aktive WLAN-Verbindung zwischen Smartphone und Audi MMI für Online Media Streaming notwendig.\n***** Google und das Google-Logo sind eingetragene Marken von Google Inc.\n****** Verfügbar in Englisch (UK, US), Deutsch, Französisch, Spanisch, Italienisch, Englisch, Chinesisch.",
+        "en": "In addition to standard MMI Radio Plus, includes the following:\n● Integrated navigation with 3D map display\n● Detailed route information: map preview, choice of alternative routes, POIs, lane recommendations, motorway exits, detailed junction maps and more\n● Dynamic route guidance with TMCpro (in conjunction with Audi connect Infotainment Services: traffic information online)\n● MMI search: free text search with intelligent suggestions provided during entry\n● Natural voice recognition\n● 2xSDXC memory card readers"
+      },
+      "masterVariant": {
+        "id": 1,
+        "sku": "NAV2D",
+        "key": "test_0006 123",
+        "prices": [
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "CHF",
+              "centAmount": 2200,
+              "fractionDigits": 2
+            },
+            "id": "262fbfd1-ae53-4a8e-9c84-bf761c7be922",
+            "country": "CH",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "CAD",
+              "centAmount": 2200,
+              "fractionDigits": 2
+            },
+            "id": "46c3147c-0789-4e00-a1f2-b594f0bc3aab",
+            "country": "CA",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2500,
+              "fractionDigits": 2
+            },
+            "id": "6f2764e3-2a78-4ac8-b4ba-e1edd8d734ab",
+            "country": "FR",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2500,
+              "fractionDigits": 2
+            },
+            "id": "630e64d7-aab5-4c70-aac9-27597a2f34cf",
+            "country": "FR",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "CAD",
+              "centAmount": 2200,
+              "fractionDigits": 2
+            },
+            "id": "131fee0b-e8c5-47ca-a306-e603c0126438",
+            "country": "CA",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "CHF",
+              "centAmount": 2200,
+              "fractionDigits": 2
+            },
+            "id": "e8021318-b3e1-4fcc-8ac7-0b660f31a5a5",
+            "country": "CH",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2500,
+              "fractionDigits": 2
+            },
+            "id": "1704b4e1-2fa2-4980-83f4-e077b528c839",
+            "country": "DE",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "PLN",
+              "centAmount": 7900,
+              "fractionDigits": 2
+            },
+            "id": "a98a2a44-3611-4f90-b804-75aae1b2d46a",
+            "country": "PL",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "PLN",
+              "centAmount": 6900,
+              "fractionDigits": 2
+            },
+            "id": "8ed61a67-92de-4e11-a03e-ec61f547f044",
+            "country": "PL",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2900,
+              "fractionDigits": 2
+            },
+            "id": "6bd8624d-7ef9-4564-b96f-c044dffe04ed",
+            "country": "IT",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2600,
+              "fractionDigits": 2
+            },
+            "id": "856b40da-210c-4b42-9f16-35519e0e6494",
+            "country": "IT",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2900,
+              "fractionDigits": 2
+            },
+            "id": "daec2aef-947d-449e-ac42-c403862a0812",
+            "country": "NL",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 2600,
+              "fractionDigits": 2
+            },
+            "id": "1b7f3a8f-7876-4288-b9ed-fbd166e9b406",
+            "country": "NL",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "GBP",
+              "centAmount": 3400,
+              "fractionDigits": 2
+            },
+            "id": "18ab1693-0946-4e2e-91d8-73f7103da4bd",
+            "country": "GB",
+            "channel": {
+              "typeId": "channel",
+              "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+            }
+          },
+          {
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "GBP",
+              "centAmount": 3100,
+              "fractionDigits": 2
+            },
+            "id": "5302ba6d-ed60-4a12-ad93-c8d975354987",
+            "country": "GB",
+            "channel": {
+              "typeId": "channel",
+              "id": "60e97855-d60f-4808-8399-385d67f922e1"
+            }
+          }
+        ],
+        "images": [
+          {
+            "url": "https://8bdc49b7906521fc8007-7de527828c552996336500d912383134.ssl.cf3.rackcdn.com/A171163_full-X1S_4xlk.jpg",
+            "dimensions": {
+              "w": 0,
+              "h": 0
+            }
+          }
+        ],
+        "attributes": [
+          {
+            "name": "productDescriptionShort",
+            "value": {
+              "pl": "#PL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+              "nl": "#NL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+              "de": "MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+              "en": "The fast and convenient operating concept of the navigation system with MMI controls allows the driver to drive safely and relaxed.",
+              "it": "Audi supporta il driver con una vasta gamma di sistemi di assistenza",
+              "fr": "Audi prend en charge le conducteur avec une large gamme de systèmes d'assistance"
+            }
+          },
+          {
+            "name": "nameExtended",
+            "value": {
+              "pl": "MMI® Navigation plus mit MMI touch",
+              "nl": "MMI® Navigation plus mit MMI touch",
+              "de": "MMI® Navigation plus mit MMI touch",
+              "en": "MMI® Navigation plus mit MMI touch",
+              "it": "MMI® Navigation plus mit MMI touch",
+              "fr": "MMI® Navigation plus mit MMI touch"
+            }
+          },
+          {
+            "name": "requiredVehicleRoleForPurchase",
+            "value": {
+              "label": {
+                "en": "Guest User",
+                "de": "Gastnutzer",
+                "fr": "Guest User",
+                "it": "Guest User"
+              },
+              "key": "requiredVehicleRoleForPurchase_gu"
+            }
+          },
+          {
+            "name": "imageURL",
+            "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+          },
+          {
+            "name": "iconURL",
+            "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+          },
+          {
+            "name": "legalText",
+            "value": {
+              "pl": "#PL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+              "nl": "#NL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+              "de": "Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+              "en": "The systems are activated in the vehicle MMI. The systems work only within system limits and support the driver. Responsibility and necessary attention in road traffic remain with the driver.",
+              "it": "I sistemi sono attivati ​​nel veicolo MMI. I sistemi funzionano solo entro limiti di sistema e supportano il driver. La responsabilità e l'attenzione necessaria nel traffico stradale restano con il conducente.",
+              "fr": "Les systèmes sont activés dans le véhicule MMI. Les systèmes fonctionnent uniquement dans les limites du système et supportent le pilote. La responsabilité et l'attention nécessaire dans le trafic routier restent avec le conducteur."
+            }
+          },
+          {
+            "name": "licenceRuntime",
+            "value": {
+              "label": {
+                "it": "2 days",
+                "fr": "2 days",
+                "de": "2 days",
+                "en": "2 days"
+              },
+              "key": "licenceRuntime_P2D"
+            }
+          },
+          {
+            "name": "purchaseOption",
+            "value": {
+              "label": {
+                "en": "Single",
+                "de": "Einzelkauf",
+                "fr": "Single",
+                "it": "Single"
+              },
+              "key": "purchaseOption_single"
+            }
+          },
+          {
+            "name": "InCarProductType",
+            "value": {
+              "label": "Product",
+              "key": "productType_product"
+            }
+          },
+          {
+            "name": "legalDocuments",
+            "value": [
+              "acp.documents.tos.54797",
+              "acp.documents.ct.54797",
+              "acp.documents.third-party.54797",
+              "acp.documents.privacy-policy.54797"
+            ]
+          },
+          {
+            "name": "warningPeriod",
+            "value": 2
+          },
+          {
+            "name": "licenseType",
+            "value": {
+              "label": "regular",
+              "key": "licenseType_regular"
+            }
+          },
+          {
+            "name": "productNotes",
+            "value": [
+              {
+                "label": {
+                  "it": "Requires ignition cycle after purchase",
+                  "fr": "Requires ignition cycle after purchase",
+                  "de": "Requires ignition cycle after purchase",
+                  "en": "Requires ignition cycle after purchase"
+                },
+                "key": "IGNITIONCYCLEAFTERPURCHASE"
+              }
+            ]
+          },
+          {
+            "name": "provider",
+            "value": {
+              "label": {
+                "en": "VW",
+                "de": "VW",
+                "fr": "VW",
+                "it": "VW"
+              },
+              "key": "VW"
+            }
+          },
+          {
+            "name": "mainUnitCategory",
+            "value": [
+              {
+                "label": {
+                  "it": "NAVIGATION",
+                  "fr": "NAVIGATION",
+                  "de": "NAVIGATION",
+                  "en": "NAVIGATION"
+                },
+                "key": "NAVIGATION"
+              }
+            ]
+          },
+          {
+            "name": "licenseProfileId_Master",
+            "value": "LPBUMasterGlobal00000914"
+          },
+          {
+            "name": "licenseProfileId_Package",
+            "value": "LPPackageGlobal00001031"
+          },
+          {
+            "name": "serviceId",
+            "value": "navigation_v1"
+          },
+          {
+            "name": "isTeaser",
+            "value": false
+          }
+        ],
+        "assets": [],
+        "availability": {
+          "channels": {
+            "aeea325f-766e-451b-bbda-c4b8e5cb566c": {
+              "isOnStock": true,
+              "availableQuantity": 1
+            },
+            "d3ca2712-f808-4b51-a24d-e82a37aae9d2": {
+              "isOnStock": true,
+              "availableQuantity": 1
+            }
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": 2,
+          "sku": "NAV1M",
+          "key": "test_0006 456",
+          "prices": [
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 7000,
+                "fractionDigits": 2
+              },
+              "id": "dec2eda1-a651-4ccd-a8b6-73fe3cd500bc",
+              "country": "FR",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 7000,
+                "fractionDigits": 2
+              },
+              "id": "cdb6fe08-3af3-4b72-96ff-d17924fcfa3a",
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 7000,
+                "fractionDigits": 2
+              },
+              "id": "d55d9e76-02b3-44eb-8a88-70311687cf4a",
+              "country": "FR",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 7000,
+                "fractionDigits": 2
+              },
+              "id": "76fd6122-4b34-4ee5-8780-3b10b94c56ef",
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CAD",
+                "centAmount": 6000,
+                "fractionDigits": 2
+              },
+              "id": "54eed9c1-587b-4b50-91b1-27b6f733eba8",
+              "country": "CA",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CHF",
+                "centAmount": 5500,
+                "fractionDigits": 2
+              },
+              "id": "15fc320f-7f59-43bf-9916-ea4198a1f378",
+              "country": "CH",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CHF",
+                "centAmount": 5500,
+                "fractionDigits": 2
+              },
+              "id": "990fdfc9-c8d2-4736-aa49-ceb2ede99a2c",
+              "country": "CH",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CAD",
+                "centAmount": 6000,
+                "fractionDigits": 2
+              },
+              "id": "8dae00c0-18ba-4722-82c9-8059776ef6e1",
+              "country": "CA",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            }
+          ],
+          "images": [
+            {
+              "url": "http://mediaservice.audi.com/media/cdb/data/ef934d61-d754-4986-8b14-97a827ba959a.jpg",
+              "dimensions": {
+                "w": 0,
+                "h": 0
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "productDescriptionShort",
+              "value": {
+                "pl": "#PL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "nl": "#NL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "de": "MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "en": "The fast and convenient operating concept of the navigation system with MMI controls allows the driver to drive safely and relaxed.",
+                "it": "Audi supporta il driver con una vasta gamma di sistemi di assistenza",
+                "fr": "Audi prend en charge le conducteur avec une large gamme de systèmes d'assistance"
+              }
+            },
+            {
+              "name": "nameExtended",
+              "value": {
+                "pl": "MMI® Navigation plus mit MMI touch",
+                "nl": "MMI® Navigation plus mit MMI touch",
+                "de": "MMI® Navigation plus mit MMI touch",
+                "en": "MMI® Navigation plus mit MMI touch",
+                "it": "MMI® Navigation plus mit MMI touch",
+                "fr": "MMI® Navigation plus mit MMI touch"
+              }
+            },
+            {
+              "name": "requiredVehicleRoleForPurchase",
+              "value": {
+                "label": {
+                  "en": "Guest User",
+                  "de": "Gastnutzer",
+                  "fr": "Guest User",
+                  "it": "Guest User"
+                },
+                "key": "requiredVehicleRoleForPurchase_gu"
+              }
+            },
+            {
+              "name": "imageURL",
+              "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+            },
+            {
+              "name": "iconURL",
+              "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+            },
+            {
+              "name": "legalText",
+              "value": {
+                "pl": "#PL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "nl": "#NL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "de": "Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "en": "The systems are activated in the vehicle MMI. The systems work only within system limits and support the driver. Responsibility and necessary attention in road traffic remain with the driver.",
+                "it": "I sistemi sono attivati ​​nel veicolo MMI. I sistemi funzionano solo entro limiti di sistema e supportano il driver. La responsabilità e l'attenzione necessaria nel traffico stradale restano con il conducente.",
+                "fr": "Les systèmes sont activés dans le véhicule MMI. Les systèmes fonctionnent uniquement dans les limites du système et supportent le pilote. La responsabilité et l'attention nécessaire dans le trafic routier restent avec le conducteur."
+              }
+            },
+            {
+              "name": "licenceRuntime",
+              "value": {
+                "label": {
+                  "it": "1 month",
+                  "fr": "1 month",
+                  "de": "1 Monat",
+                  "en": "1 month"
+                },
+                "key": "licenceRuntime_P1M"
+              }
+            },
+            {
+              "name": "purchaseOption",
+              "value": {
+                "label": {
+                  "en": "Single",
+                  "de": "Einzelkauf",
+                  "fr": "Single",
+                  "it": "Single"
+                },
+                "key": "purchaseOption_single"
+              }
+            },
+            {
+              "name": "InCarProductType",
+              "value": {
+                "label": "Product",
+                "key": "productType_product"
+              }
+            },
+            {
+              "name": "legalDocuments",
+              "value": [
+                "acp.documents.tos.54797",
+                "acp.documents.ct.54797",
+                "acp.documents.third-party.54797",
+                "acp.documents.privacy-policy.54797"
+              ]
+            },
+            {
+              "name": "warningPeriod",
+              "value": 30
+            },
+            {
+              "name": "licenseType",
+              "value": {
+                "label": "regular",
+                "key": "licenseType_regular"
+              }
+            },
+            {
+              "name": "productNotes",
+              "value": [
+                {
+                  "label": {
+                    "it": "Requires ignition cycle after purchase",
+                    "fr": "Requires ignition cycle after purchase",
+                    "de": "Requires ignition cycle after purchase",
+                    "en": "Requires ignition cycle after purchase"
+                  },
+                  "key": "IGNITIONCYCLEAFTERPURCHASE"
+                }
+              ]
+            },
+            {
+              "name": "provider",
+              "value": {
+                "label": {
+                  "en": "VW",
+                  "de": "VW",
+                  "fr": "VW",
+                  "it": "VW"
+                },
+                "key": "VW"
+              }
+            },
+            {
+              "name": "mainUnitCategory",
+              "value": [
+                {
+                  "label": {
+                    "it": "NAVIGATION",
+                    "fr": "NAVIGATION",
+                    "de": "NAVIGATION",
+                    "en": "NAVIGATION"
+                  },
+                  "key": "NAVIGATION"
+                }
+              ]
+            },
+            {
+              "name": "licenseProfileId_Master",
+              "value": "LPBUMasterGlobal00000914"
+            },
+            {
+              "name": "licenseProfileId_Package",
+              "value": "LPPackageGlobal00001032"
+            },
+            {
+              "name": "serviceId",
+              "value": "navigation_v1"
+            },
+            {
+              "name": "isTeaser",
+              "value": false
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "channels": {
+              "d3ca2712-f808-4b51-a24d-e82a37aae9d2": {
+                "isOnStock": true,
+                "availableQuantity": 1
+              },
+              "aeea325f-766e-451b-bbda-c4b8e5cb566c": {
+                "isOnStock": true,
+                "availableQuantity": 1
+              }
+            }
+          }
+        },
+        {
+          "id": 3,
+          "sku": "NAV12M",
+          "key": "test_0006 789",
+          "prices": [
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CAD",
+                "centAmount": 45000,
+                "fractionDigits": 2
+              },
+              "id": "2c536882-7053-454b-84a6-707bd2ba534a",
+              "country": "CA",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CHF",
+                "centAmount": 38900,
+                "fractionDigits": 2
+              },
+              "id": "6284f018-876d-4063-b696-418f733a1458",
+              "country": "CH",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CAD",
+                "centAmount": 45000,
+                "fractionDigits": 2
+              },
+              "id": "31c4b216-9316-4fa8-831b-c750971f0546",
+              "country": "CA",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 50000,
+                "fractionDigits": 2
+              },
+              "id": "5da10cb0-e292-4135-9f28-004dea84cc19",
+              "country": "FR",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 50000,
+                "fractionDigits": 2
+              },
+              "id": "d38a9fa9-a08f-48a6-9934-ea96cefb4e0a",
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CHF",
+                "centAmount": 38900,
+                "fractionDigits": 2
+              },
+              "id": "08810bd4-cbea-47c5-a3d8-37aae62318ba",
+              "country": "CH",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 50000,
+                "fractionDigits": 2
+              },
+              "id": "51c92ec1-3985-4141-b3f0-27142f9e9ba4",
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 50000,
+                "fractionDigits": 2
+              },
+              "id": "6f45fa84-6bbb-4fa5-afbb-ce607d002f8c",
+              "country": "FR",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            }
+          ],
+          "images": [
+            {
+              "url": "http://mediaservice.audi.com/media/cdb/data/ef934d61-d754-4986-8b14-97a827ba959a.jpg",
+              "dimensions": {
+                "w": 0,
+                "h": 0
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "productDescriptionShort",
+              "value": {
+                "pl": "#PL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "nl": "#NL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "de": "MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "en": "The fast and convenient operating concept of the navigation system with MMI controls allows the driver to drive safely and relaxed.",
+                "it": "Audi supporta il driver con una vasta gamma di sistemi di assistenza",
+                "fr": "Audi prend en charge le conducteur avec une large gamme de systèmes d'assistance"
+              }
+            },
+            {
+              "name": "nameExtended",
+              "value": {
+                "pl": "MMI® Navigation plus mit MMI touch",
+                "nl": "MMI® Navigation plus mit MMI touch",
+                "de": "MMI® Navigation plus mit MMI touch",
+                "en": "MMI® Navigation plus mit MMI touch",
+                "it": "MMI® Navigation plus mit MMI touch",
+                "fr": "MMI® Navigation plus mit MMI touch"
+              }
+            },
+            {
+              "name": "requiredVehicleRoleForPurchase",
+              "value": {
+                "label": {
+                  "en": "Guest User",
+                  "de": "Gastnutzer",
+                  "fr": "Guest User",
+                  "it": "Guest User"
+                },
+                "key": "requiredVehicleRoleForPurchase_gu"
+              }
+            },
+            {
+              "name": "imageURL",
+              "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+            },
+            {
+              "name": "iconURL",
+              "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+            },
+            {
+              "name": "legalText",
+              "value": {
+                "pl": "#PL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "nl": "#NL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "de": "Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "en": "The systems are activated in the vehicle MMI. The systems work only within system limits and support the driver. Responsibility and necessary attention in road traffic remain with the driver.",
+                "it": "I sistemi sono attivati ​​nel veicolo MMI. I sistemi funzionano solo entro limiti di sistema e supportano il driver. La responsabilità e l'attenzione necessaria nel traffico stradale restano con il conducente.",
+                "fr": "Les systèmes sont activés dans le véhicule MMI. Les systèmes fonctionnent uniquement dans les limites du système et supportent le pilote. La responsabilité et l'attention nécessaire dans le trafic routier restent avec le conducteur."
+              }
+            },
+            {
+              "name": "licenceRuntime",
+              "value": {
+                "label": {
+                  "it": "12 months",
+                  "fr": "12 months",
+                  "de": "12 Monate",
+                  "en": "12 months"
+                },
+                "key": "licenceRuntime_P12M"
+              }
+            },
+            {
+              "name": "purchaseOption",
+              "value": {
+                "label": {
+                  "en": "Single",
+                  "de": "Einzelkauf",
+                  "fr": "Single",
+                  "it": "Single"
+                },
+                "key": "purchaseOption_single"
+              }
+            },
+            {
+              "name": "InCarProductType",
+              "value": {
+                "label": "Product",
+                "key": "productType_product"
+              }
+            },
+            {
+              "name": "legalDocuments",
+              "value": [
+                "acp.documents.tos.54797",
+                "acp.documents.ct.54797",
+                "acp.documents.third-party.54797",
+                "acp.documents.privacy-policy.54797"
+              ]
+            },
+            {
+              "name": "warningPeriod",
+              "value": 365
+            },
+            {
+              "name": "licenseType",
+              "value": {
+                "label": "regular",
+                "key": "licenseType_regular"
+              }
+            },
+            {
+              "name": "productNotes",
+              "value": [
+                {
+                  "label": {
+                    "it": "Requires ignition cycle after purchase",
+                    "fr": "Requires ignition cycle after purchase",
+                    "de": "Requires ignition cycle after purchase",
+                    "en": "Requires ignition cycle after purchase"
+                  },
+                  "key": "IGNITIONCYCLEAFTERPURCHASE"
+                }
+              ]
+            },
+            {
+              "name": "provider",
+              "value": {
+                "label": {
+                  "en": "VW",
+                  "de": "VW",
+                  "fr": "VW",
+                  "it": "VW"
+                },
+                "key": "VW"
+              }
+            },
+            {
+              "name": "mainUnitCategory",
+              "value": [
+                {
+                  "label": {
+                    "it": "NAVIGATION",
+                    "fr": "NAVIGATION",
+                    "de": "NAVIGATION",
+                    "en": "NAVIGATION"
+                  },
+                  "key": "NAVIGATION"
+                }
+              ]
+            },
+            {
+              "name": "licenseProfileId_Master",
+              "value": "LPBUMasterGlobal00000914"
+            },
+            {
+              "name": "licenseProfileId_Package",
+              "value": "LPPackageGlobal00001033"
+            },
+            {
+              "name": "serviceId",
+              "value": "navigation_v1"
+            },
+            {
+              "name": "isTeaser",
+              "value": false
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "channels": {
+              "aeea325f-766e-451b-bbda-c4b8e5cb566c": {
+                "isOnStock": true,
+                "availableQuantity": 1
+              },
+              "d3ca2712-f808-4b51-a24d-e82a37aae9d2": {
+                "isOnStock": true,
+                "availableQuantity": 1
+              }
+            }
+          }
+        },
+        {
+          "id": 4,
+          "sku": "NAVLT",
+          "key": "test_0006 999",
+          "prices": [
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CAD",
+                "centAmount": 120000,
+                "fractionDigits": 2
+              },
+              "id": "78604af6-3b51-4e26-a916-c7c7a9413864",
+              "country": "CA",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 150000,
+                "fractionDigits": 2
+              },
+              "id": "622067f8-b438-4188-9598-ff2849795baa",
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 150000,
+                "fractionDigits": 2
+              },
+              "id": "b0020101-f6d8-4e83-b0fd-f3a58cfc2310",
+              "country": "FR",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CHF",
+                "centAmount": 135000,
+                "fractionDigits": 2
+              },
+              "id": "819390f2-90ee-4100-919a-49ef1ce513e0",
+              "country": "CH",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 150000,
+                "fractionDigits": 2
+              },
+              "id": "d9d6bd9e-a797-4e1e-b954-d0b8942da2ad",
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 150000,
+                "fractionDigits": 2
+              },
+              "id": "a3e40026-656e-4104-a616-d857fe807872",
+              "country": "FR",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CAD",
+                "centAmount": 120000,
+                "fractionDigits": 2
+              },
+              "id": "17a391b0-6163-4f78-9301-fa3091cb5000",
+              "country": "CA",
+              "channel": {
+                "typeId": "channel",
+                "id": "1ad25c47-27b9-46c3-a111-7b5456f2f5c3"
+              }
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "CHF",
+                "centAmount": 135000,
+                "fractionDigits": 2
+              },
+              "id": "2a7ecd5d-8d5c-420e-8fe2-a8679d7a3505",
+              "country": "CH",
+              "channel": {
+                "typeId": "channel",
+                "id": "60e97855-d60f-4808-8399-385d67f922e1"
+              }
+            }
+          ],
+          "images": [
+            {
+              "url": "http://mediaservice.audi.com/media/cdb/data/ef934d61-d754-4986-8b14-97a827ba959a.jpg",
+              "dimensions": {
+                "w": 0,
+                "h": 0
+              }
+            }
+          ],
+          "attributes": [
+            {
+              "name": "productDescriptionShort",
+              "value": {
+                "pl": "#PL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "nl": "#NL MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "de": "MMI Navigation plus bietet innovative Navigationstechnik mit größter Funktionsvielfalt bei höchstem Bedienkomfort und vielen Extras",
+                "en": "The fast and convenient operating concept of the navigation system with MMI controls allows the driver to drive safely and relaxed.",
+                "it": "Audi supporta il driver con una vasta gamma di sistemi di assistenza",
+                "fr": "Audi prend en charge le conducteur avec une large gamme de systèmes d'assistance"
+              }
+            },
+            {
+              "name": "nameExtended",
+              "value": {
+                "pl": "MMI® Navigation plus mit MMI touch",
+                "nl": "MMI® Navigation plus mit MMI touch",
+                "de": "MMI® Navigation plus mit MMI touch",
+                "en": "MMI® Navigation plus mit MMI touch",
+                "it": "MMI® Navigation plus mit MMI touch",
+                "fr": "MMI® Navigation plus mit MMI touch"
+              }
+            },
+            {
+              "name": "requiredVehicleRoleForPurchase",
+              "value": {
+                "label": {
+                  "en": "Guest User",
+                  "de": "Gastnutzer",
+                  "fr": "Guest User",
+                  "it": "Guest User"
+                },
+                "key": "requiredVehicleRoleForPurchase_gu"
+              }
+            },
+            {
+              "name": "imageURL",
+              "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+            },
+            {
+              "name": "iconURL",
+              "value": "https://audimediacenter-a.akamaihd.net/system/production/media/42660/images/1293bdfcce0e81eb66f95a6d1899c40cc175af15/A171163_full.jpg"
+            },
+            {
+              "name": "legalText",
+              "value": {
+                "pl": "#PL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "nl": "#NL Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "de": "Die Aktivierung der Systeme erfolgt im Fahrzeug MMI. Die Systeme arbeiten nur innerhalb von Systemgrenzen und unterstützen den Fahrer. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.",
+                "en": "The systems are activated in the vehicle MMI. The systems work only within system limits and support the driver. Responsibility and necessary attention in road traffic remain with the driver.",
+                "it": "I sistemi sono attivati ​​nel veicolo MMI. I sistemi funzionano solo entro limiti di sistema e supportano il driver. La responsabilità e l'attenzione necessaria nel traffico stradale restano con il conducente.",
+                "fr": "Les systèmes sont activés dans le véhicule MMI. Les systèmes fonctionnent uniquement dans les limites du système et supportent le pilote. La responsabilité et l'attention nécessaire dans le trafic routier restent avec le conducteur."
+              }
+            },
+            {
+              "name": "licenceRuntime",
+              "value": {
+                "label": {
+                  "it": "Lifetime",
+                  "fr": "Lifetime",
+                  "de": "Lebenszeit",
+                  "en": "Lifetime"
+                },
+                "key": "licenceRuntime_lifetime"
+              }
+            },
+            {
+              "name": "purchaseOption",
+              "value": {
+                "label": {
+                  "en": "Single",
+                  "de": "Einzelkauf",
+                  "fr": "Single",
+                  "it": "Single"
+                },
+                "key": "purchaseOption_single"
+              }
+            },
+            {
+              "name": "InCarProductType",
+              "value": {
+                "label": "Product",
+                "key": "productType_product"
+              }
+            },
+            {
+              "name": "legalDocuments",
+              "value": [
+                "acp.documents.tos.54797",
+                "acp.documents.ct.54797",
+                "acp.documents.third-party.54797",
+                "acp.documents.privacy-policy.54797"
+              ]
+            },
+            {
+              "name": "warningPeriod",
+              "value": 0
+            },
+            {
+              "name": "licenseType",
+              "value": {
+                "label": "regular",
+                "key": "licenseType_regular"
+              }
+            },
+            {
+              "name": "productNotes",
+              "value": [
+                {
+                  "label": {
+                    "it": "Requires ignition cycle after purchase",
+                    "fr": "Requires ignition cycle after purchase",
+                    "de": "Requires ignition cycle after purchase",
+                    "en": "Requires ignition cycle after purchase"
+                  },
+                  "key": "IGNITIONCYCLEAFTERPURCHASE"
+                }
+              ]
+            },
+            {
+              "name": "provider",
+              "value": {
+                "label": {
+                  "en": "VW",
+                  "de": "VW",
+                  "fr": "VW",
+                  "it": "VW"
+                },
+                "key": "VW"
+              }
+            },
+            {
+              "name": "mainUnitCategory",
+              "value": [
+                {
+                  "label": {
+                    "it": "NAVIGATION",
+                    "fr": "NAVIGATION",
+                    "de": "NAVIGATION",
+                    "en": "NAVIGATION"
+                  },
+                  "key": "NAVIGATION"
+                }
+              ]
+            },
+            {
+              "name": "licenseProfileId_Master",
+              "value": "LPBUMasterGlobal00000914"
+            },
+            {
+              "name": "licenseProfileId_Package",
+              "value": "LPPackageGlobal00001034"
+            },
+            {
+              "name": "serviceId",
+              "value": "navigation_v1"
+            },
+            {
+              "name": "isTeaser",
+              "value": false
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "channels": {
+              "d3ca2712-f808-4b51-a24d-e82a37aae9d2": {
+                "isOnStock": true,
+                "availableQuantity": 1
+              }
+            }
+          }
+        }
+      ],
+      "searchKeywords": {}
+    },
+    "published": true,
+    "hasStagedChanges": true
+  },
+  "key": "test_0006_master",
+  "catalogData": {},
+  "taxCategory": {
+    "typeId": "tax-category",
+    "id": "e218ea61-e97a-415f-b212-819cf93e6dc7"
+  },
+  "lastVariantId": 4,
+  "createdAt": "2018-02-14T17:08:15.936Z",
+  "lastModifiedAt": "2018-03-13T09:14:09.334Z",
+  "lastMessageSequenceNumber": 1
+}
