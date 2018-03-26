@@ -1,11 +1,10 @@
-const utils = require('./utils');
+const _ = require('lodash');
+const CompletenessCalculator = require('./completenessCalculator');
+const completeProduct = require('../config/completeProduct.json');
+const incompleteProduct = require('../config/incompleteProduct.json');
+const schemas = require('./schemas.js').schemas;
 
-const incompleteProduct = JSON.stringify(
-  require('../config/incompleteProduct.json')
-);
-const completeProduct = JSON.stringify(
-  require('../config/completeProduct.json')
-);
+const localTest = false;
 
 /**
  * HTTP Cloud Function.
@@ -15,74 +14,40 @@ const completeProduct = JSON.stringify(
  */
 exports.diff = function diff(req, res) {
   if (req.body.resource.typeId === 'product' && req.body.resource.obj) {
-    const product = JSON.stringify(req.body.resource.obj);
-    if (product) {
-      const localizations = utils.getRequiredLocalizations(
-        JSON.parse(completeProduct)
-      );
+    const cc = new CompletenessCalculator(
+      completeProduct.masterData.staged,
+      incompleteProduct.masterData.staged,
+      schemas
+    );
+    const result = cc.getMissingValues(req.body.resource.obj.masterData.staged);
+    const actions = [];
 
-      const requiredValues = {};
-      const missingValues = {};
-      const completeness = {};
-
-      localizations.forEach(localization => {
-        const incompleteProductLocalized = utils.normalize(
-          JSON.parse(incompleteProduct),
-          localization
-        );
-        const completeProductLocalized = utils.normalize(
-          JSON.parse(completeProduct),
-          localization
-        );
-        const productLocalized = utils.normalize(
-          JSON.parse(product),
-          localization
-        );
-
-        requiredValues[localization] = utils.productDiff(
-          completeProductLocalized,
-          incompleteProductLocalized
-        );
-        missingValues[localization] = utils.productDiff(
-          completeProductLocalized,
-          productLocalized,
-          localizations
-        );
-
-        if (requiredValues[localization].length > 0) {
-          completeness[localization] = String(
-            Math.round(
-              100 -
-                100 /
-                  requiredValues[localization].length *
-                  missingValues[localization].length
-            )
-          );
-          missingValues[localization] = JSON.stringify(
-            missingValues[localization]
-          );
-        } else if (requiredValues[localization].length < 1) {
-          completeness[localization] = 'Error: Division by zero';
-          console.log(
-            "Error: Your config files don't define any different properties for incomplete and complete products"
-          );
-        }
+    _.forOwn(result.completeness, (value, key) => {
+      actions.push({
+        action: 'setAttribute',
+        variantId: parseInt(key, 10),
+        name: 'completeness',
+        value,
       });
+    });
 
-      res.status(200).json({
-        actions: [
-          {
-            action: 'setAttributeInAllVariants',
-            name: 'completeness',
-            value: completeness,
-          },
-          {
-            action: 'setAttributeInAllVariants',
-            name: 'missingvalues',
-            value: missingValues,
-          },
-        ],
+    _.forOwn(result.missingValues, (value, key) => {
+      actions.push({
+        action: 'setAttribute',
+        variantId: parseInt(key, 10),
+        name: 'missingvalues',
+        value,
       });
+    });
+
+    if (result) {
+      if (localTest) {
+        console.log(actions);
+      } else {
+        res.status(200).json({
+          actions,
+        });
+      }
     } else {
       res.send(200).end();
     }
@@ -94,4 +59,15 @@ exports.diff = function diff(req, res) {
 };
 
 // For simplified local testing...
-// exports.diff({body: {resource: {typeId: 'product', obj: require('./test/resources/product.json')}}});
+/* eslint-disable */
+if (localTest) {
+  exports.diff({
+    body: {
+      resource: {
+        typeId: 'product',
+        obj: require('../test/resources/product.json'),
+      },
+    },
+  });
+}
+/* eslint-enable */

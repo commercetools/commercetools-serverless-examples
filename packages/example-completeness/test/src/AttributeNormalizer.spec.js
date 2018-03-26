@@ -3,7 +3,7 @@ const completeProduct = require('../resources/completeProduct.json');
 
 describe('AttributeNormalizer', () => {
   it('should identify required locales based on the given product', () => {
-    const localizations = AttributeNormalizer.getLocalizations(
+    const localizations = AttributeNormalizer.getLocales(
       completeProduct,
       '$.masterData.staged.masterVariant.attributes.*'
     );

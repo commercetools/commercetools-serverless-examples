@@ -1,14 +1,8 @@
 {
-  "id": "f08b49b9-d7e5-4b14-a2e0-f366c3c9b026",
-  "version": 1,
-  "productType": {
-    "typeId": "product-type",
-    "id": "c8099747-1323-4134-9948-034a4bd52382"
-  },
-  "catalogs": [],
   "masterData": {
     "staged": {
       "name": {},
+      "description": {},
       "categories": [],
       "categoryOrderHints": {},
       "slug": {},
@@ -21,13 +15,6 @@
       },
       "variants": [],
       "searchKeywords": {}
-    },
-    "published": false,
-    "hasStagedChanges": false
-  },
-  "catalogData": {},
-  "lastVariantId": 1,
-  "createdAt": "2018-02-08T10:59:21.671Z",
-  "lastModifiedAt": "2018-02-08T10:59:21.671Z",
-  "lastMessageSequenceNumber": 1
+    }
+  }
 }

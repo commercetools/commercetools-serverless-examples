@@ -1,20 +1,20 @@
 const _ = require('lodash');
 const jp = require('jsonpath');
 
-exports.getLocalizations = (product, path) => {
-  const localizations = [];
+exports.getLocales = (product, path) => {
+  const locales = [];
   const localizable = jp.query(product, path)[0];
   if (_.isObject(product)) {
-    localizations.push(..._.keys(localizable));
+    locales.push(..._.keys(localizable));
   }
-  return localizations;
+  return locales;
 };
 
 exports.normalize = function(object) {
-  const localization = this.localization;
+  const locale = this.locale;
   const obj = {};
-  if (_.isObject(object) && _.has(object, localization)) {
-    obj[localization] = true;
+  if (_.isObject(object) && _.has(object, locale)) {
+    obj[locale] = true;
   }
   return obj;
 };

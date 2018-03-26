@@ -55,20 +55,20 @@ exports.getAttributeType = attribute => {
   return false;
 };
 
-exports.getLocalizations = (product, path) => {
-  const localizations = [];
+exports.getLocales = (product, path) => {
+  const locales = [];
   jp.query(product, path).forEach(attribute => {
     const attributeType = exports.getAttributeType(attribute);
     if (
       attributeType.localizablePath &&
       jp.query(attribute, attributeType.localizablePath)[0]
     ) {
-      localizations.push(
+      locales.push(
         ..._.keys(jp.query(attribute, attributeType.localizablePath)[0])
       );
     }
   });
-  return _.uniq(localizations);
+  return _.uniq(locales);
 };
 
 exports.normalize = function(attribute) {
@@ -82,13 +82,12 @@ exports.normalize = function(attribute) {
           exports.getAttributeType(attribute).localizablePath
         );
         objectValues = objectValues[0];
-        if (objectValues[self.localization]) {
+        if (objectValues[self.locale]) {
           return `@.${identifier}=="${jp.query(attribute, `$.${identifier}`)}"`;
         }
       } else {
         return `@.${identifier}=="${jp.query(attribute, `$.${identifier}`)}"`;
       }
-
       return null;
     });
     const key = `?(${normalizedArray.join(' && ')})`;

@@ -28,7 +28,7 @@ To store completeness information and missing values, the API-Extension requires
       "type": {
         "name": "ltext"
       },
-      "attributeConstraint": "SameForAll",
+      "attributeConstraint": "None",
       "isSearchable": false,
     },
     {
@@ -41,14 +41,14 @@ To store completeness information and missing values, the API-Extension requires
       "type": {
         "name": "ltext"
       },
-      "attributeConstraint": "SameForAll",
+      "attributeConstraint": "None",
       "isSearchable": false,
     }
 ```
 
 ## Usage
 
-1. Define an incomplete product (completeness = 0%) by pasting the JSON of a commercetools product into `./config/incompleteProduct.json`
+1. Define an incomplete product (completeness = 0%) by pasting the JSON of a commercetools product into `./config/incompleteProduct.json`.
 2. Define a complete product (completeness = 100%) by pasting the JSON of a commercetools product into `./config/completeProduct.json`
 3. If necessary, define the level of detail that your product requires and the algorithms that are used to compare products properties by adding schemas to `./src/schemas.js` and write your custom normalizers. More details can be found in the _schemas-section_.
 4. Build your code and deploy it as a Google Cloud Function to Google Cloud.
@@ -56,7 +56,7 @@ To store completeness information and missing values, the API-Extension requires
 
 ### Schemas
 
-Commercetools products contain many different complex sub-objects such as attributes, images, assets, category-maps, variants, prices and so on. By default `deepdiff` does return all deleted properties and array elements of the given product. While this works fine for simple properties such as `key` or `taxCategory`, more complex properties such as localizable datafields, attributes or prices need to be normalized with _Normalizers_ in order to make `deepdiff` return proper values. Schemas and Normalizers help you to define required sub-objects and required properties using JSONpaths. Some examples:
+Commercetools products contain many different complex sub-objects such as attributes, images, assets, category-maps, variants, prices and so on. By default `deepdiff` does return all deleted properties and array elements of the given product. While this works fine for simple properties such as `key` or `taxCategory`, more complex properties such as localizable datafields, attributes or prices need to be normalized with _Normalizers_ in order to make `deepdiff` return proper values. Schemas and Normalizers help you to define required sub-objects and required properties using JSONpaths. Schemas with the path `$.variants[*]...` are automatically applied to the masterVariant and all variants of a product. Some examples:
 
 1. Identify a missing product description for a locale using the LocalizationNormalizer:
 
@@ -73,7 +73,7 @@ Commercetools products contain many different complex sub-objects such as attrib
 
    ```json
    description: {
-       path: '$.masterData.staged.description',
+       path: '$.description',
        normalizer: LocalizableNormalizer
    }
    ```
@@ -93,7 +93,7 @@ Commercetools products contain many different complex sub-objects such as attrib
 
    ```json
    attributes: {
-       path: '$.masterData.staged.masterVariant.attributes.*',
+       path: ['$.attributes.*'],
        identifiers: ['name'],
        localizablePath: '$.value',
        normalizer: AttributeNormalizer
@@ -123,7 +123,7 @@ Commercetools products contain many different complex sub-objects such as attrib
 
    ```json
    prices: {
-       path: '$.masterData.staged.masterVariant.prices.*',
+       path: ['$.variants[*].prices.*'],
        identifiers: [],
        normalizer: PriceNormalizer
    }
@@ -152,7 +152,7 @@ Commercetools products contain many different complex sub-objects such as attrib
 
    ```json
    prices: {
-       path: '$.masterData.staged.masterVariant.prices.*',
+       path: ['$.variants[*].prices.*'],
        identifiers: ['country', 'channel.id', 'value.currencyCode'],
        normalizer: PriceNormalizer
    }

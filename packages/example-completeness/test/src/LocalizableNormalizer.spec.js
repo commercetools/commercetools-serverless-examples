@@ -7,7 +7,7 @@ describe('LocalizableNormalizer', () => {
       de: 'Complete DE',
     };
     const config = {
-      localization: 'de',
+      locale: 'de',
     };
     const jsonpath = LocalizableNormalizer.normalize.bind(config)(description);
     expect(jsonpath.de).toBeTruthy();

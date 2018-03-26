@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const jp = require('jsonpath');
 
-exports.getLocalizations = () => [];
+exports.getLocales = () => [];
 
 exports.normalize = function(object) {
   const self = this;
@@ -10,7 +10,7 @@ exports.normalize = function(object) {
       if (self.localizablePath) {
         let objectValues = jp.query(object, self.localizablePath);
         objectValues = objectValues[0];
-        if (objectValues[self.localization]) {
+        if (objectValues[self.locale]) {
           return `@.${identifier}=="${jp.query(object, `$.${identifier}`)}"`;
         }
       } else {
@@ -22,6 +22,5 @@ exports.normalize = function(object) {
     const key = normalizedArray.join(' && ');
     return key;
   }
-
   return null;
 };
