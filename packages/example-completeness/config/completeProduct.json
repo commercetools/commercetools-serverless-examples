@@ -1,0 +1,58 @@
+{
+  "masterData": {
+    "staged": {
+      "name": {
+        "de": "required",
+        "en": "required"
+      },
+      "description": {
+        "de": "required",
+        "en": "required"
+      },
+      "categories": [
+        {
+          "typeId": "category",
+          "id": "required"
+        }
+      ],
+      "slug": {
+        "en": "my-new-product-slug",
+        "de": "mein-neuer-produkt-slug"
+      },
+      "variants": [
+        {
+          "id": 2,
+          "sku": "cvbcvbcvb",
+          "prices": [],
+          "images": [],
+          "attributes": [
+            {
+              "name": "productDescriptionShort",
+              "value": {
+                "de": "required",
+                "en": "required"
+              }
+            },
+            {
+              "name": "nameExtended",
+              "value": {
+                "de": "required",
+                "en": "required"
+              }
+            },
+            {
+              "name": "variantName",
+              "value": "required"
+            }
+          ],
+          "assets": []
+        }
+      ]
+    }
+  },
+  "key": "complete",
+  "taxCategory": {
+    "typeId": "tax-category",
+    "id": "3aba2226-0693-43b5-bc64-7a6abeb30e6e"
+  }
+}

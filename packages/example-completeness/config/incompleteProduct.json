@@ -1,0 +1,20 @@
+{
+  "masterData": {
+    "staged": {
+      "name": {},
+      "description": {},
+      "categories": [],
+      "categoryOrderHints": {},
+      "slug": {},
+      "masterVariant": {
+        "id": 1,
+        "prices": [],
+        "images": [],
+        "attributes": [],
+        "assets": []
+      },
+      "variants": [],
+      "searchKeywords": {}
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "de642648-8a9e-4d84-a79e-ebe190e1c2bc",
+  "version": 71,
+  "productType": {
+    "typeId": "product-type",
+    "id": "c8099747-1323-4134-9948-034a4bd52382"
+  },
+  "catalogs": [],
+  "masterData": {
+    "staged": {
+      "name": {
+        "de": true
+      },
+      "description": {
+        "de": true
+      },
+      "categories": [{
+        "typeId": "category",
+        "id": "f028e434-a1a8-46ca-be0e-13b96a891062"
+      }, {
+        "typeId": "category",
+        "id": "f02bec66-28fd-421c-a902-c0d7fcb7e5db"
+      }],
+      "categoryOrderHints": {},
+      "slug": {
+        "de": true
+      },
+      "masterVariant": {
+        "id": 1,
+        "prices": ["@.country==\"\" && @.channel.id==\"\" && @.value.currencyCode==\"EUR\"", "@.country==\"DE\" && @.channel.id==\"\" && @.value.currencyCode==\"EUR\"", "@.country==\"DE\" && @.channel.id==\"6e55c807-aeae-492c-97a1-b8724f013e20\" && @.value.currencyCode==\"EUR\""],
+        "images": [{
+          "url": "https://ebc24f8525db88613638-1dd07b8effb00cfbf3b4b38462413dc9.ssl.cf3.rackcdn.com/27479524_10215398757-TLTwKvjv.jpg",
+          "dimensions": {
+            "w": 4096,
+            "h": 3072
+          }
+        }],
+        "attributes": ["?(@.name==\"test1\")", "?(@.name==\"test2\")", "?(@.name==\"test3\")", "?(@.name==\"varianttest\")", "?(@.name==\"ltext\")", "?(@.name==\"setoftext\")", "?(@.name==\"enum\")", "?(@.name==\"lenum\")", "?(@.name==\"referenceproduct\")"],
+        "assets": []
+      },
+      "variants": [{
+        "id": 2,
+        "sku": "cvbcvbcvb",
+        "prices": [],
+        "images": [],
+        "attributes": ["?(@.name==\"test1\")", "?(@.name==\"test2\")", "?(@.name==\"test3\")", "?(@.name==\"varianttest\")", "?(@.name==\"ltext\")", "?(@.name==\"setoftext\")", "?(@.name==\"enum\")", "?(@.name==\"lenum\")", "?(@.name==\"referenceproduct\")"],
+        "assets": []
+      }],
+      "searchKeywords": {}
+    },
+    "published": true,
+    "hasStagedChanges": true
+  },
+  "key": "complete",
+  "catalogData": {},
+  "taxCategory": {
+    "typeId": "tax-category",
+    "id": "3aba2226-0693-43b5-bc64-7a6abeb30e6e"
+  },
+  "lastVariantId": 2,
+  "createdAt": "2018-02-08T10:31:44.563Z",
+  "lastModifiedAt": "2018-02-13T10:39:33.276Z",
+  "lastMessageSequenceNumber": 6
+}

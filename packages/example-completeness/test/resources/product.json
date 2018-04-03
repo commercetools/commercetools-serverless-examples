@@ -1,0 +1,122 @@
+{
+  "id": "4d083834-b158-494d-81fb-cd9e15fee21f",
+  "version": 51,
+  "productType": {
+    "typeId": "product-type",
+    "id": "e272de52-aa13-49cd-8eef-b92b331fea95"
+  },
+  "catalogs": [],
+  "masterData": {
+    "current": {
+      "name": {
+        "de": "required",
+        "en": "required"
+      },
+      "description": {
+        "de": "required",
+        "en": "required"
+      },
+      "categories": [
+        {
+          "typeId": "category",
+          "id": "required"
+        }
+      ],
+      "slug": {
+        "en": "my-new-product-slug",
+        "de": "mein-neuer-produkt-slug"
+      },
+      "variants": [
+        {
+          "id": 2,
+          "sku": "cvbcvbcvb",
+          "prices": [],
+          "images": [],
+          "attributes": [
+            {
+              "name": "productDescriptionShort",
+              "value": {
+                "de": "required",
+                "en": "required"
+              }
+            },
+            {
+              "name": "nameExtended",
+              "value": {
+                "de": "required",
+                "en": "required"
+              }
+            },
+            {
+              "name": "variantName",
+              "value": "required"
+            }
+          ],
+          "assets": []
+        }
+      ]
+    },
+    "staged": {
+      "name": {
+        "de": "required",
+        "en": "required"
+      },
+      "description": {
+        "de": "required",
+        "en": "required"
+      },
+      "categories": [
+        {
+          "typeId": "category",
+          "id": "required"
+        }
+      ],
+      "slug": {
+        "en": "my-new-product-slug",
+        "de": "mein-neuer-produkt-slug"
+      },
+      "variants": [
+        {
+          "id": 2,
+          "sku": "cvbcvbcvb",
+          "prices": [],
+          "images": [],
+          "attributes": [
+            {
+              "name": "productDescriptionShort",
+              "value": {
+                "de": "required",
+                "en": "required"
+              }
+            },
+            {
+              "name": "nameExtended",
+              "value": {
+                "de": "required",
+                "en": "required"
+              }
+            },
+            {
+              "name": "variantName",
+              "value": "required"
+            }
+          ],
+          "assets": []
+        }
+      ]
+    },
+    "published": true,
+    "hasStagedChanges": true
+  },
+  "key": "test_0006_master",
+  "catalogData": {
+  },
+  "taxCategory": {
+    "typeId": "tax-category",
+    "id": "e218ea61-e97a-415f-b212-819cf93e6dc7"
+  },
+  "lastVariantId": 4,
+  "createdAt": "2018-02-14T17:08:15.936Z",
+  "lastModifiedAt": "2018-03-13T09:14:09.334Z",
+  "lastMessageSequenceNumber": 1
+}
