@@ -1,7 +1,8 @@
-const { createExtensionAdapter } = require('./ctp-extension-azure-adapters.js');
-
-// var adapter = require('./ctp-extension-gcf-adapter.js');
-// exports.handler = adapter.ctpExtensionAdapter(addInsurance);
+const {
+  createExtensionAdapter,
+} = require('./ctp-extension-lambda-adapters.js');
+// const { createExtensionAdapter } = require('./ctp-extension-azure-adapters.js');
+// const { createExtensionAdapter } = require('./ctp-extension-gcf-adapters.js');
 
 const addInsurance = (request, ctpResponse, log) => {
   // Use an ID from your project!
@@ -47,4 +48,5 @@ const addInsurance = (request, ctpResponse, log) => {
   }
 };
 
-module.exports = createExtensionAdapter(addInsurance);
+// module.exports = createExtensionAdapter(addInsurance);
+exports.handler = createExtensionAdapter(addInsurance);
