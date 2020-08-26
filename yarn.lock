@@ -5739,9 +5739,10 @@ rollup-plugin-flow@1.1.1:
     flow-remove-types "^1.1.0"
     rollup-pluginutils "^1.5.1"
 
-rollup-plugin-includepaths@0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-includepaths/-/rollup-plugin-includepaths-0.2.2.tgz#4b688f220aba88c682e3846b653ddd2eb107f1ac"
+rollup-plugin-includepaths@0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-includepaths/-/rollup-plugin-includepaths-0.2.4.tgz#eb21d2d05ad410856a7c2f0612a85983fd11cc62"
+  integrity sha512-iZen+XKVExeCzk7jeSZPJKL7B67slZNr8GXSC5ROBXtDGXDBH8wdjMfdNW5hf9kPt+tHyIvWh3wlE9bPrZL24g==
 
 rollup-plugin-json@2.3.0:
   version "2.3.0"
